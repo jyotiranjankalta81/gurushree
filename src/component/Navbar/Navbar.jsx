@@ -46,9 +46,9 @@ function Navbar() {
                 <li className="nav-item">
                 <div className=  "dropdown">
                     <button className="dropbtn">
-                        <NavLink className="nav-link " to="/aboutus"  onClick={handleView}  >About Us</NavLink>
+                        <NavLink className="nav-link " to="/aboutus"  >About Us</NavLink>
                     </button>
-                    <div className= {view ? "dropdown-contents" : "dropdown-content"}>
+                    <div className= "dropdown-content">
                         <Link to="/minerals">M/s Gurushree Minerals Pvt. Ltd.</Link>
                         <Link to="/industries">M/s Gurushree Industries Pvt. Ltd.</Link>
                         <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
