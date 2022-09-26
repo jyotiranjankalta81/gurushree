@@ -16,6 +16,8 @@ import Minerals from "../Component2/Minerals/Minerals";
 import Industries from "../Component2/Industries/Industries";
 import Buildcon from "../Component2/Buildcon/Buildcon";
 import Associates from "../Component2/Associates/Associates";
+import Dropdown from "../component/Navbar/Dropdown";
+import ScrollToTop from "../component/ScrollToTop";
 
 
 
@@ -23,6 +25,7 @@ function MainNavigation() {
     return (
         <div className="main">
             <Router>
+                <ScrollToTop/>
                 <Header />
                 <Routes>
                     <Route exact path="/" element={<Home />} />
@@ -30,6 +33,7 @@ function MainNavigation() {
                     <Route exact path="/client" element={<Client />} />
                     <Route exact path="/contact" element={<Contact />} />
                     <Route exact path="/career" element={<Career />} />
+                    <Route exact path="/dropdown" element={<Dropdown />} />
 
 <Route exact path="/product" element={<Product />} />
                     <Route exact path="/business" element={<Business />} />

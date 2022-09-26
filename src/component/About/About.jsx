@@ -135,7 +135,7 @@ function About() {
           Our Vision
         </h1>
         <div className="fullimg">
-          <img src="images/About/ourvision.png" alt="" />
+          <img src="images/About/ourmission.png" alt="" />
         </div>
 
         <div className="vision_card_container">
