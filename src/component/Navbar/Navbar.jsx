@@ -5,25 +5,33 @@ import FeatherIcon from 'feather-icons-react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { StreetViewPanorama } from "@react-google-maps/api";
+import Dropdown from "./Dropdown";
 
 
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
-    const[view,setView]=useState(true);
-    const handleView = ()=>{
-        console.log(view)
-        if (getwidth()){
-            setView(true);
+    const [popup, setPopup] = React.useState(false);
 
-        }
-    }
-    var getwidth = () => {
-        if (window.innerWidth < 580) {
-          return true;
-        } else {
-          return false;
-        }
-      }
+    // const[view,setView]=useState(true);
+    // const handleView = ()=>{
+    //     console.log(view)
+    //     if (getwidth()){
+    //         setView(true);
+
+    //     }
+    // }
+    // var getwidth = () => {
+    //     if (window.innerWidth < 580) {
+    //       return true;
+    //     } else {
+    //       return false;
+    //     }
+    //   }
+    const handleOnClick = () => {
+        setPopup(true);
+      };
+    
+    
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -46,14 +54,16 @@ function Navbar() {
                 <li className="nav-item">
                 <div className=  "dropdown">
                     <button className="dropbtn">
-                        <NavLink className="nav-link " to="/aboutus"  onClick={handleView}  >About Us</NavLink>
+                        <NavLink className="nav-link " to="/aboutus"  onClick={handleOnClick} >About Us</NavLink>
                     </button>
-                    <div className= {view ? "dropdown-contents" : "dropdown-content"}>
+                    {popup && <Dropdown Popup={setPopup} />}
+
+                    {/* <div className="dropdown-content">
                         <Link to="/minerals">M/s Gurushree Minerals Pvt. Ltd.</Link>
                         <Link to="/industries">M/s Gurushree Industries Pvt. Ltd.</Link>
                         <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
                         <Link to="/associates">M/s Elite Associates</Link>
-                    </div>
+                    </div> */}
                 </div>
                 </li>
 
