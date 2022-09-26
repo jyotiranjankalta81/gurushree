@@ -1,0 +1,174 @@
+.new-header {
+
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #273246;
+    font-family: 'Kanit', sans-serif;
+}
+
+.crousel_img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+
+.new-line {
+    width: 9rem;
+    height: 0.6rem;
+    background: #273246;
+}
+
+/* ------------------------------------------- */
+.new-carosel-text {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding: 2rem;
+    left: 0;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.carousel_img_div {
+    position: relative;
+}
+
+.new-btn1 {
+    position: absolute;
+    background: #607B9C;
+    border: none;
+    height: 2.2rem;
+    border-radius: 5px;
+    width: 7rem;
+    left: 2rem;
+    top: 8rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.kNBmiK {
+    overflow: hidden;
+    margin: 0px 55px 15px 60px;
+}
+
+
+/* ======================Secong section =============================*/
+.new-space {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.newimg {
+    width: 18%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.new-img {
+    width: auto;
+    height: 16vh;
+    /* width: 80%; */
+    padding: 0.9rem
+}
+
+.new-p-content {
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 60%;
+    font-family: 'Kanit', sans-serif;
+    /* border: 2px solid black; */
+}
+
+
+
+.new-line {
+    width: 9rem;
+    height: 0.6rem;
+    background: #273246;
+}
+
+/* ------------------------------------------- */
+
+
+.kNBmiK {
+    overflow: hidden;
+    margin: 35px 20px 15px 79px;
+}
+
+
+/* ======================Secong section =============================*/
+
+.toggle-id-img {
+    text-align: center;
+    padding: 2rem;
+}
+
+.toggle-id2-img {
+    width: 55rem;
+    height: 15rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.toggle-id2-img::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+.toggle-id2-img::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #1f2937;
+}
+
+/* Handle */
+.toggle-id2-img::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
+}
+
+@media only screen and (max-width:821px) {
+    .new-space {
+        margin-bottom: 1rem;
+    }
+
+    .newimg {
+        width: 30%;
+    }
+
+    .new-img {
+        width: 90%;
+
+    }
+
+    .new-p-content {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .new-space {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newimg {
+        width: 75%;
+    }
+
+    .new-p-content {
+        width: 80%;
+    }
+}

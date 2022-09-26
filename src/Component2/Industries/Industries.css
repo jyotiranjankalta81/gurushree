@@ -1,0 +1,55 @@
+.industries {
+    width: 100%;
+}
+
+.industries h2 {
+    padding-left: 5%;
+}
+
+.industries p {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+  
+
+    color: #000000;
+
+    padding: 2%;
+}
+
+.section1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section1 img {
+
+    padding: 2%;
+}
+
+.section1 p {
+    text-align: justify;
+    padding: 2%;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+   
+    color: #000000;
+}
+
+.imgsecion {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+{ "client":[
+    {
+        "id": "1",
+        "clientName":"Akash",
+        "path": "images/Client/client1.png",
+        "description": " Client 1 Timely Delivery. Very good customer support. Delighted to be a client of Gurushree."
+  
+    },
+    {
+      "id": "2",
+      "clientName":"Akashh",
+      "path": "images/Client/clientprofile.png",
+        "description": "Client 2 Timely Delivery. Very good customer support. Delighted to be a client of Gurushree."
+    },
+    {
+        "id": "3",
+        "clientName":"Akashhh",
+        "path": "images/Client/client3.png",
+        "description": "Client 3  Timely Delivery. Very good customer support. Delighted to be a client of Gurushree."
+     }
+    
+  ]
+}

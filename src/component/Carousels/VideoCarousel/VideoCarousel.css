@@ -1,0 +1,9 @@
+.arrowStyles
+{
+    color:black;
+position:absolute;
+top: .7em;
+bottom: auto;
+padding: .4em;
+z-index:  2,
+}

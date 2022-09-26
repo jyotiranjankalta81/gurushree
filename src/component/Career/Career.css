@@ -1,0 +1,223 @@
+
+/* career content card*/
+/* .arrow-trans {
+    margin-left: 21em;
+    margin-top: -95px
+} */
+
+.career-h1 {
+    color:#3F4A5A;
+    margin-top: 2rem;
+    font-family: 'Segoe UI';
+    font-size: 2rem;
+    font-weight: 600;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.career-line {
+    background:#3F4A5A;
+    height: 5px;
+    width: 21%;
+
+}
+
+.career_card_container {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+
+}
+
+.career_img {
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.card-con {
+    width: 35%;
+    /* border: 2px solid black; */
+    background: #E7F0F7;
+    border-radius: .5rem;
+    padding: 1.5rem;
+
+
+}
+
+.career_card_bg1 {
+    background: #F6F5F3;
+}
+
+.career_card_bg2 {
+    background: #FCF0E4;
+}
+
+.career_card_bg3 {
+    background: #F5F6F8;
+}
+
+.card-text {
+    font-family: 'Rasa';
+    font-weight: 400;
+   
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    /* border: 2px solid black; */
+}
+
+/* Submit Section */
+
+.career-contact {
+    background-image: url(../../../public/images/Career/Contact-bg.png);
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.submit_container {
+    /* border: 2px solid blanchedalmond; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit_container form{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.submit_container input::placeholder{
+    color: white;
+}
+
+.submit-text {
+    margin-top: 8rem;
+    font-family: Segoe UI;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.career-contact-name {
+    width: 20em;
+    background: transparent;
+    border: 3px solid white;
+    margin-bottom: 1rem;
+    
+}
+
+.career-contact-name {
+    width: 20em;
+    background: transparent;
+
+}
+
+.upload-border {
+    border: 2px dashed white;
+    border-radius: .5rem;
+
+}
+.submit-box {
+    height: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upload{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.fileupload {
+    position: relative;
+    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
+}
+
+.fileupload input {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.0;
+    filter: alpha(opacity=0);
+    font-size: 300px;
+    border: 1px dashed white;
+}
+.sub-btn {
+    margin-right: 200px;
+    color: #456BB4;
+    width: 30%;
+    border: none;
+    background: white;
+    height: 2rem;
+    border-radius: .2rem;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 13rem;
+
+}
+
+
+
+@media only screen and (max-width:821px)
+{
+    .career_img img{
+        width: 50%;
+        height: 50%;
+    }
+    .career_img{
+        display: none;
+    }
+    .career_card_container{
+        justify-content: center;
+        gap: 1.2rem;
+
+    }
+    .card-con{
+        width: 45%;
+    }
+    
+}
+
+@media only screen and (max-width:450px)
+{
+    .career_img{
+        display: none;
+    }
+
+    .career_card_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-con{
+        width: 90%;
+        
+    }
+    .career-line {
+        width: 40%;
+    }
+    .career-h1{
+        align-items: flex-start;
+        margin-left: 1.5rem;
+    }
+}
+

@@ -1,0 +1,220 @@
+{
+    "new": [
+      {
+        "id": "1",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee {'\n'} Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy.",
+        "gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "2",
+        "path": "images/Blogs/blog2.png",
+        "text": "Gurushreee {'\n'} Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "3",
+        "path": "images/Blogs/blog3.png",
+        "text": "Gurushreee{'\n'} Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "4",
+        "path": "images/Blogs/blog4.png",
+        "text": "Gurushreee \n Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "5",
+        "path": "images/Blogs/blog.png",
+        "text": "Gurushreee \n Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "6",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee \n Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "7",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee \n Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "8",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee \n Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "9",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee \n Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "10",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee \n Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "11",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee '\n' Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      },
+      {
+        "id": "12",
+        "path": "images/Blogs/blog1.png",
+        "text": "Gurushreee \n  Minerals",
+        "content": "BigCommerce is the best CMS software because it contains built-in SEO that enables you to optimize your site to appear in more relevant search results. Email integration: If you want to send promotions and content about your products, BigCommerce makes it easy."
+        ,"gallery": [
+          { "galleryId": "1", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "2", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "3", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "4", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "5", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "6", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "7", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "8", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "9", "GalleryImage": "images/Blogs/blog1.png" },
+          { "galleryId": "10", "GalleryImage": "images/Blogs/blog1.png" }
+                ]
+      }
+    ]
+  }

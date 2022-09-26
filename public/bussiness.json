@@ -1,0 +1,38 @@
+{ "Content":[
+  {
+    "id": "1",
+    "key": "1",
+    "title": "Mining",
+    "description": "GSMPL is a major dolomite supplier in Central India. Our mines are located at Baradwar, Champa (Chhattisgarh). We are associated with leading steel plants all over the country and are their choice of suppliers for processed dolomite ores.",
+    "downSideContent":"Whilst ensuring the quality product and on-time delivery,  we also focus on using the latest technology to give the best in minerals." , 
+    "img": "images/Business/mining.png" ,
+    "belowContent":"Supplying our products is a job we undertake with full responsibility, and we thus also provide rake loading options for bulk orders. The nearest rake point is Baradwar, Chhattisgarh which is on the main railway line between Kolkata and Mumbai"
+  },
+  {
+    "id": "2",
+    "key": "2",
+    "title": "Product",
+    "description": "GSMPL is a major dolomite supplier in Central India. Our mines are located at Baradwar, Champa (Chhattisgarh). We are associated with leading steel plants all over the country and are their choice of suppliers for processed dolomite ores.",
+    "downSideContent":"Whilst ensuring the quality product and on-time delivery, we also focus on using the latest technology to give the best in minerals." ,
+    "img": "images/Business/product.png"
+    
+  },
+  {
+    "id": "3",
+    "key": "3",
+    "title": "Hiring",
+    "description": "GSMPL is a major dolomite supplier in Central India. Our mines are located at Baradwar, Champa (Chhattisgarh). We are associated with leading steel plants all over the country and are their choice of suppliers for processed dolomite ores.",
+    "downSideContent":"Whilst ensuring the quality product and on-time delivery, we also focus on using the latest technology to give the best in minerals." ,
+    "img": "images/Business/hiring-service.png"
+  },
+  {
+    "id": "4",
+    "key": "4",
+    "title": "Real-Espect",
+    "description": "GSMPL is a major dolomite supplier in Central India. Our mines are located at Baradwar, Champa (Chhattisgarh). We are associated with leading steel plants all over the country and are their choice of suppliers for processed dolomite ores.",
+    "downSideContent":"Whilst ensuring the quality product and on-time delivery, we also focus on using the latest technology to give the best in minerals." ,
+    "img": "images/Business/real-espect.png"
+  }
+   
+  ]
+}

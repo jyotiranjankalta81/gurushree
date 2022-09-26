@@ -1,0 +1,152 @@
+/* -----------Product setion------------ */
+.des-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 80%;
+    gap: 7rem;
+}
+
+.sphare {
+    background: linear-gradient(180deg, #456BB4 0%, rgba(247, 146, 30, 0.2) 100%);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1.5rem;
+
+}
+
+.pro_btn button {
+    background: #456BB4;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .2rem 1rem;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.pro_btn button:hover {
+    background: #456BB4;
+
+}
+
+.verticle-line {
+    width: .5rem;
+    height: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: .7rem;
+    background: linear-gradient(180deg, #456BB4 0%, rgba(247, 146, 30, 0.2) 100%);
+}
+
+.product-description {
+    color: #3F3F3F;
+    font-family: 'Rasa';
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid black; */
+
+}
+
+.product-description img {
+    width: 9rem;
+    height: 9rem;
+    margin-left: 5%;
+}
+
+.product-description p {
+    /* border: 2px solid black; */
+    width: 80%;
+    margin-left: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+
+
+.description-btn {
+    background: #456BB4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+.description-btn p {
+    margin-top: 1rem;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+
+.pro-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../../../public/images/Home/logo_watermark.png);
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 20% 70%;
+    /* border: 2px solid black; */
+}
+
+
+
+.product-margin {
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:600px) {
+    .sphare {
+        display: none;
+    }
+
+    .verticle-line {
+        display: none;
+    }
+
+    .pro_btn button {
+        margin-bottom: 1rem;
+    }
+
+    .product-description {
+        width: 100%;
+        font-size: 1rem;
+        gap: 1rem;
+        flex-direction: column-reverse;
+    }
+    .des-sec{
+        justify-content: center;
+    }
+
+    .product-description p {
+        width: 100%;
+        margin-left: 0rem;
+        text-align: justify;
+        font-size: 1rem;
+
+    }
+}
