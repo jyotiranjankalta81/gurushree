@@ -2,13 +2,14 @@ import React from 'react'
 import { Link, NavLink } from "react-router-dom";
 import "./Dropdown.css"
 import Modal from '@mui/material/Modal';
+import { Dialog } from '@mui/material';
 
-export default function Dropdown() {
-  // const handleClose = () => Popup(false);
+export default function Dropdown({Popup}) {
+  const handleClose = () => Popup(false);
 
   return (
     <div>
-      {/* <Modal
+      <Dialog
         open={Popup}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
@@ -19,10 +20,9 @@ export default function Dropdown() {
           },
           backgroundColor: 'transparent',
           background: "transparent",
-          border:"3px solid green",
           boxShadow: 'none'
         }}
-      > */}
+      >
 
         <div className="dropdown-contents">
           <Link to="/minerals">M/s Gurushree Minerals Pvt. Ltd.</Link>
@@ -31,7 +31,7 @@ export default function Dropdown() {
           <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
           <Link to="/associates">M/s Elite Associates</Link>
         </div>
-      {/* </Modal> */}
+      </Dialog>
 
     </div>
   )

@@ -35,7 +35,9 @@ function Navbar() {
 
         <nav className="navbar">
             <div data-aos="fade-right" className="shadow"></div>
-            <ul className={isMobile ? "nav-links-mobile navbar-links" : "navbar-links"} onClick={() => { setIsMobile(false) }}>
+            {/* <ul className={isMobile ? "nav-links-mobile navbar-links" : "navbar-links"} onClick={() => { setIsMobile(false) }}> */}
+            <ul className={isMobile ? "nav-links-mobile navbar-links" : "navbar-links"} >
+            {/* <ul className= "nav-links-mobile navbar-links"> */}
 
                 <Link to='/'> <img src="images/Header/logo.png" className="header-dots-img" data-aos="fade-down" alt="" /></Link>
 
@@ -50,9 +52,9 @@ function Navbar() {
                         <button className="dropbtn">
                             {getWidth() ? (
                                 <div>
-                                    <h3 className="nav-link" >About</h3>
+                                    <h3 className="nav-link" onClick={()=> setPopup(true)} >About</h3>
                                     
-                                    <Dropdown/>
+                                    {/* <Dropdown/> */}
                                 </div>
                                 
 
