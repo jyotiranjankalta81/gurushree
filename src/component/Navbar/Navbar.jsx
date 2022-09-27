@@ -50,7 +50,7 @@ function Navbar() {
                         <button className="dropbtn">
                             {getWidth() ? (
                                 <div>
-                                    <h3 className="nav-lin" >About</h3>
+                                    <h3 className="nav-link" >About</h3>
                                     
                                     <Dropdown/>
                                 </div>
