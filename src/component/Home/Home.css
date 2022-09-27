@@ -515,9 +515,13 @@
     height: 29rem;
      padding: 0% 2%;
 
-    background-image: url(../../../public/images/Home/bluecard.png);
+    background-image: url(../../../public/images/Home/deepbluebgone.png);
     background-repeat: no-repeat;
+    /* translate: (deg); */
+    /* transform: rotate(-1deg); */
+    margin-right: -0.8rem;
     background-position: center;
+    /* border: 3px solid black; */
     background-size: 100% 100%;
 }
 
@@ -530,7 +534,7 @@
     height: 29rem;
      padding: 0% 2%;
 
-    background-image: url(../../../public/images/Home/lightgrey.png);
+    background-image: url(../../../public/images/Home/greybgtwo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -545,7 +549,7 @@
     height: 29rem;
     padding: 0% 2%;
 
-    background-image: url(../../../public/images/Home/bluecard.png);
+    background-image: url(../../../public/images/Home/deepbluethree.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;

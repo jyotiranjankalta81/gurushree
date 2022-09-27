@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const images = ["../images/Home/crs1.jpg", "../images/Home/crs2.jpg", "../images/Home/crs3.jpg", "../images/Home/crs4.jpg", "../images/Home/crs1.jpg",];
+const images = ["../images/Home/crs1.jpg", "../images/Home/crs2.jpg", "../images/Home/crs3.jpg", "../images/Home/crs4.jpg", "../images/Home/crs1.jpg", "../images/Component2/crouslemineral2.jpg"];
 
 function Header() {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -25,7 +25,7 @@ function MainNavigation() {
     return (
         <div className="main">
             <Router>
-                <ScrollToTop/>
+                <ScrollToTop />
                 <Header />
                 <Routes>
                     <Route exact path="/" element={<Home />} />
@@ -35,7 +35,7 @@ function MainNavigation() {
                     <Route exact path="/career" element={<Career />} />
                     <Route exact path="/dropdown" element={<Dropdown />} />
 
-<Route exact path="/product" element={<Product />} />
+                    <Route exact path="/product" element={<Product />} />
                     <Route exact path="/business" element={<Business />} />
                     <Route exact path="/vlog" element={<Blog />} />
                     <Route exact path="/latest-updates" element={<LatestUpdate />} />

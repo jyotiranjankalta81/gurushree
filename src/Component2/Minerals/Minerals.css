@@ -30,11 +30,17 @@
   
 
 }
-
-.section1 img {
-
-    padding: 2%;
+.gatewala_img{
+    height: 25%;
+    width: 25%;
+    margin-left: 1rem;
+    /* border: 3px solid yellow; */
+    /* padding: 1rem; */
+    border-radius: 15px;
+    /* padding: 0rem; */
 }
+
+
 
 .section1 p {
     text-align: justify;
@@ -62,4 +68,53 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 0rem 1rem 1rem 1rem  ;
+}
+.section_image1{
+    width: 20%;
+    height: 40vh;
+    border-radius: 15px;
+    
+    background-image: url(../../../public/images/Component2/sideminerla.jpeg);
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 100% 100%;
+}
+.section_image2{
+    width: 20%;
+    height: 40vh;
+    border-radius: 15px;
+    
+    background-image: url(../../../public/images/Component2/cruser.jpeg);
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 100% 100%;
+}
+.section_image3{
+    width: 20%;
+    height: 40vh;
+    border-radius: 15px;
+    
+    background-image: url(../../../public/images/Component2/mine.jpeg);
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 100% 100%;
+}
+.section_image4{
+    width: 20%;
+    height: 40vh;
+    border-radius: 15px;
+    
+    background-image: url(../../../public/images/Component2/crouselmineral.jpeg);
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 100% 100%;
 }

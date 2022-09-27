@@ -12,20 +12,20 @@ function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     const [popup, setPopup] = React.useState(false);
 
-    const[view,setView]=useState(false);
-    
+    const [view, setView] = useState(false);
+
     var getWidth = () => {
         if (window.innerWidth < 580) {
-          return true;
+            return true;
         } else {
-          return false;
+            return false;
         }
-      }
+    }
     const handleOnClick = () => {
         setPopup(true);
-      };
-    
-    
+    };
+
+
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -46,24 +46,30 @@ function Navbar() {
                     <NavLink className="nav-link " to="/aboutus" >About Us</NavLink>
                 </li> */}
                 <li className="nav-item">
-                <div className=  "dropdown">
-                    <button className="dropbtn">
-                        {getWidth() ? (
-                            <h3 className="nav-link" onClick={()=> setView(true)}>About Us</h3>
+                    <div className="dropdown">
+                        <button className="dropbtn">
+                            {getWidth() ? (
+                                <div>
+                                    <h3 className="nav-lin" >About</h3>
+                                    
+                                    <Dropdown/>
+                                </div>
+                                
 
-                        ):(
+                            ) : (
 
-                            <NavLink className="nav-link " to="/aboutus"  >About Us</NavLink>
+                                <NavLink className="nav-link " to="/aboutus"  >About Us</NavLink>
 
-                        )}
-                    </button>
-                    <div className= {view ? "dropdown-contents":"dropdown-content"}>
-                        <Link to="/minerals">M/s Gurushree Minerals Pvt. Ltd.</Link>
-                        <Link to="/industries">M/s Gurushree Industries Pvt. Ltd.</Link>
-                        <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
-                        <Link to="/associates">M/s Elite Associates</Link>
-                    </div> 
-                </div>
+                            )}
+                        </button>
+                        <div className="dropdown-content">
+                            <Link to="/minerals">M/s Gurushree Minerals Pvt. Ltd.</Link>
+                            <Link to="/industries">M/s Gurushree Industries Pvt. Ltd.</Link>
+                            <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
+                            <Link to="/associates">M/s Elite Associates</Link>
+                        </div>
+                    </div>
+                        {popup && <Dropdown Popup={setPopup}/>}
                 </li>
 
                 <li className="nav-item ">

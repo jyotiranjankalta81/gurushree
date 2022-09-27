@@ -3,26 +3,10 @@ import { useState, useEffect } from "react";
 import Navbar from "../Navbar/Navbar";
 import "./Product.css";
 import Button from '@mui/material/Button';
+import Datas from "./Data"
 
 function Product() {
-  const [productsData, setProductData] = useState([]);
-  const getAPI = (data) => {
-    // console.log(data)
-    fetch(data, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setProductData(data.data);
-      });
-  };
-  useEffect(() => {
-    getAPI("/data1.json");
-  }, []);
+
 
   return (
     <div className="">
@@ -32,7 +16,7 @@ function Product() {
 
       {/*---------------- Production section----------- */}
       <section className="product-margin">
-        {productsData.map((product) => (
+        {Datas.map((product) => (
           <div className="pro-sec">
             <div className="des-sec">
               <div className="sphare" data-aos="fade-down-right"></div>
