@@ -80,6 +80,7 @@ function Career() {
         <div class="card-con career_card_bg2" data-aos="fade-up-right">
           <p className="card-text">In line with the company vision, we look forward for the persons to meet our requirements. With a decade of dedicated service to the sector, we have plans of reaching across and touching the sky, with people who are ready to touch the stars too.
           </p>
+
         </div>
         <div class="card-con career_card_bg3" data-aos="fade-up-left">
           <p className="card-text">If you are interested in working with us please email your current resume at hr@gsmpl.net or contact us at 7771012602 between time slot 10:00am to 6:00pm.
