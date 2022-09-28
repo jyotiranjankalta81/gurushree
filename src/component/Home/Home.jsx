@@ -239,18 +239,17 @@ function Home() {
             </div>
 
             <div className="cards_ourvision">
-
-              <div className="our_vision_card1">
-                <img src="images/Home/thumbsup.png" alt="" />
-                <h3>Core Purpose</h3>
-                <p>To help leading enterprises more competent productive & satisfied</p>
+              <div className="our_vision_card1"  data-aos="fade-left">
+                <div className="our_vision_img1"></div>
+                <h3 className="vision_inside_heading" >Core Purpose</h3>
+                <p className="vision_inside_para">To help leading enterprises <br /> more competent productive <br /> & satisfied</p>
               </div>
 
-              <div className="our_vision_card2">
-                <img src="images/Home/balance.png" alt="" />
-                <h3>Core Values</h3>
-                <p>
-                  <ul>
+              <div className="our_vision_card2" data-aos="fade-down-left">
+                <div className="our_vision_img2"></div>
+                <h3 className="core_value_heading">Core Values</h3>
+                <p className="core_value_para">
+                  <ul className="core_value_ul">
                     <li>We work with passion</li>
                     <li>We believe in excellence</li>
                     <li>We put customer first</li>
@@ -258,10 +257,10 @@ function Home() {
                 </p>
               </div>
 
-              <div className="our_vision_card3">
-                <img src="images/Home/hill.png" alt="" />
-                <h3>BHAG <p>(Mount Everest Goal)</p></h3>
-                <p>Gurushree Group to achieve annual turnoverof rs 10.000 cr by 15’th August 2041</p>
+              <div className="our_vision_card3" data-aos="fade-right">
+                <div className="our_vision_img3"></div>
+                <h3 className="vision_inside_heading">BHAG <br /> <span className="vision-goal">(Mount Everest Goal)</span> </h3>
+                <p className="vision_inside_para">Gurushree Group to achieve annual turnoverof rs 10.000 cr by 15’th August 2041</p>
               </div>
 
             </div>

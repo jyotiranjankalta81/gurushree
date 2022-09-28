@@ -5,6 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../../../public/images/Home/logo_watermark.png);
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 20% 70%;
     margin-top: 2rem;
 }
 
@@ -177,7 +183,7 @@
     height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 
 }
@@ -187,7 +193,7 @@
     height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 
 
@@ -198,7 +204,7 @@
     height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -226,14 +232,26 @@
 }
 
 .vision_para {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: white;
     width: 100%;
     padding: 0 1rem;
     /* border: 2px solid white; */
     /* text-align: justify; */
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
+    font-family: 'Kanit', sans-serif;
+
+}
+.vision_paras {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    padding: 0 1rem;
+    /* border: 2px solid white; */
+    /* text-align: justify; */
+    margin-top: -2.3rem;
     font-family: 'Kanit', sans-serif;
 
 }

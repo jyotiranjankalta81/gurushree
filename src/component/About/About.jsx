@@ -159,7 +159,7 @@ function About() {
 
           <div className="vision_card2" data-aos="zoom-out-left">
             <h3 className='vision_head'>BHAG <br /> <span>(Mount Everest Goal)</span> </h3>
-            <p className='vision_para'>Gurushree Group to achieve annual turnoverof rs 10.000 cr by 15’th August 2041</p>
+            <p className='vision_paras'>Gurushree Group to achieve annual turnoverof rs 10.000 cr by 15’th August 2041</p>
 
           </div>
         </div>
@@ -226,58 +226,6 @@ function About() {
             </div>
           </div>
 
-          {/* <div class="our_team">
-            <div class="our_team_card">
-              <div class="our_team_img" data-aos="flip-left">
-                <img src="images/About/img.png" className='team-img' />
-                <div className='team_info'>
-                  <p>Nanak Bansal</p>
-                  <span>Chief Managing Director</span>
-                </div>
-              </div>
-              <p className='team-text' data-aos="zoom-in">
-
-                Progress for me has never been a dream. It has always been a distant reality
-                and once one milestone is achieved, there is always another one waiting to be crossed.
-                It is with this belief that I started Gurushree Minerals Pvt. Ltd. in 2006, a company that
-                is in the business of Mining &amp; Production of High Dolomite. Almost instantly, Gurushree Minerals Pvt.
-                Ltd. became a prominent name in its business segment, but like every entrepreneur sticks to their dream;
-                I always wanted to push my company to more prosperous milestones. Taking a path less traveled,
-                I expanded Gurushree into Gurushree Industries Pvt. Ltd., a highly sensitive business that requires a high amount of
-                technical know-how, expertise and specialized knowledge. Overcoming challenge after challenge with the support
-                of my brilliant team, I have been successful in bringing Gurushree Group to a new milestone of global recognition.
-                The journey of Gurushree Group is never ending. But with the support of my team and clients,
-                I am confident that the company will continue to scale milestones of excellence for years to come.
-
-              </p>
-            </div>
-            <div class="our_team_card">
-              <div class="our_team_img" data-aos="flip-left">
-                <img src="images/About/client3.png" className='team-img' />
-                <div className='team_info'>
-                  <p>Mukesh Bansal</p>
-                  <span>Managing Director</span>
-                </div>
-              </div>
-              <p className='team-text' data-aos="zoom-in">
-
-                “Clients are our true assets and we prioritize all our efforts towards building long and sustainable relationship with them.”
-                <br />
-                <br />
-
-                “Quality is never a short-term goal, but a life-long commitment – an immovable foundation on which depend the company’s current existence, continued survival and future growth potential.”
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-              </p>
-            </div>
-           
-          </div> */}
 
 
           <div>

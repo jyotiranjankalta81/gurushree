@@ -16,18 +16,65 @@ export default function Minerals() {
 
                 <p> We provide Rake loading options for bulk supply of Dolomite. Our nearest rake point is Baradwar (BUA) and Barasuar Goods Shed Line NO.04- (PSBD), which is on the main line between Kolkata and Mumbai</p>
 
-                <div className="imgsecion">
-                    <div className='section_image1'>
-                    {/* <img src="images/Component2/sideminerla.jpeg"  alt="" /> */}
-                    </div>
-                    <div className='section_image2'>
-                    {/* <img src="images/Component2/cruser.jpeg" alt="" /> */}
-                    </div>
-                    <div className='section_image3'> 
-                    {/* <img src="images/Component2/mine.jpeg" alt="" /> */}
-                    </div>
-                    <div className='section_image4'>
-                    {/* <img src="images/Component2/crouselmineral.jpeg" alt="" /> */}
+                <div className="slider">
+                    <div className="slide_track">
+                        <div className="slide">
+                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                        </div>
                     </div>
                 </div>
 

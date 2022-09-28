@@ -23,10 +23,14 @@
 
 .section1 {
     display: flex;
+    padding: 0rem 1rem 0rem 1rem;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-
+}
+.industry_into_img{
+    width: 30%;
+    border-radius: 15px;
 }
 
 

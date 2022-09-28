@@ -82,7 +82,7 @@ function Career() {
           </p>
         </div>
         <div class="card-con career_card_bg3" data-aos="fade-up-left">
-          <p className="card-text">If you are interested in working with us please email your current resume at hr@gsmpl.net
+          <p className="card-text">If you are interested in working with us please email your current resume at hr@gsmpl.net or contact us at 7771012602 between time slot 10:00am to 6:00pm.
           </p>
         </div>
 

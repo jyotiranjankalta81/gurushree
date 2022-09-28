@@ -19,11 +19,76 @@ export default function Associates() {
                 <br />
                 <br />
 
-                <div className="imgsecion">
-                    <img src="images/Component2/a1.png" alt="" />
-                    <img src="images/Component2/a2.png" alt="" />
-                    <img src="images/Component2/a3.png" alt="" />
-                    <img src="images/Component2/a4.png" alt="" />
+
+                <div className="slider">
+                    <div className="slide_track">
+                        <div className="slide">
+                            <img src="images/Component2/a1.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/a2.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/a3.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                            <img src="images/Component2/a4.png" alt="" className='sliding_img' />
+                        </div>
+
+
+
+                        <div className="slide">
+                            <img src="images/Component2/a1.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a2.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a3.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a4.png" alt="" className='sliding_img' />
+                        </div>
+
+
+                        <div className="slide">
+                            <img src="images/Component2/a1.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a2.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a3.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a4.png" alt="" className='sliding_img' />
+                        </div>
+
+
+                        <div className="slide">
+                            <img src="images/Component2/a1.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a2.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a3.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a4.png" alt="" className='sliding_img' />
+                        </div>
+
+
+                        <div className="slide">
+                            <img src="images/Component2/a1.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a2.png" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/a3.png" alt="" className='sliding_img' />
+                        </div>
+                    </div>
                 </div>
 
             </div>

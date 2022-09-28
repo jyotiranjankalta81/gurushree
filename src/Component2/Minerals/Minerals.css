@@ -70,51 +70,84 @@
     justify-content: space-between;
     padding: 0rem 1rem 1rem 1rem  ;
 }
-.section_image1{
-    width: 20%;
-    height: 40vh;
-    border-radius: 15px;
-    
-    background-image: url(../../../public/images/Component2/sideminerla.jpeg);
-    background-repeat: no-repeat;
 
-    background-position: center;
 
-    background-size: 100% 100%;
+.slider{
+    height:250px;
+    margin:auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
 }
-.section_image2{
-    width: 20%;
-    height: 40vh;
-    border-radius: 15px;
-    
-    background-image: url(../../../public/images/Component2/cruser.jpeg);
-    background-repeat: no-repeat;
-
-    background-position: center;
-
-    background-size: 100% 100%;
+.slide_track{
+    display: flex;
+    width: calc(250px *18);
+    animation: scroll 40s linear infinite;
 }
-.section_image3{
-    width: 20%;
-    height: 40vh;
-    border-radius: 15px;
-    
-    background-image: url(../../../public/images/Component2/mine.jpeg);
-    background-repeat: no-repeat;
-
-    background-position: center;
-
-    background-size: 100% 100%;
+.slide_track:hover{
+    animation-play-state: paused;
 }
-.section_image4{
-    width: 20%;
-    height: 40vh;
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 9))
+    }
+}
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
     border-radius: 15px;
+    perspective: 100px;
+    transition: transform 1s;
+}
+/* .slide:hover{
+    transform: translateZ(20px);
+} */
+.sliding_img:hover{
+    transform: translateZ(20px);
+    border-radius: 15px;
+}
+.sliding_img{
+    width: 100%;
+    transition: transform 1s;
+    border-radius: 15px;
+}
+.slider::before,
+.slider::after{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+.slider::before{
+    left: 0;
+    top: 0;
+}
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+
+@media screen and (min-width:201px) and (max-width:580px) {
+    .gatewala_img{
+        width: 85%;
+        margin-left: 0rem;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .minerals p {
+        text-align: justify;
+        padding: 1.3rem;
+    }
     
-    background-image: url(../../../public/images/Component2/crouselmineral.jpeg);
-    background-repeat: no-repeat;
-
-    background-position: center;
-
-    background-size: 100% 100%;
 }

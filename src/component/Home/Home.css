@@ -1,3 +1,16 @@
+/* animation section */
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+
 /* --------------Section1----------------- */
 .welcome_section {
     /* border: 2px solid black; */
@@ -476,6 +489,7 @@
     
     align-items: center;
     justify-content: center;
+    gap:1.5rem
 
 }
 
@@ -509,32 +523,34 @@
 .our_vision .cards_ourvision .our_vision_card1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width:  20rem;
     height: 29rem;
-     padding: 0% 2%;
+     /* padding: 0% 2%; */
+     gap: 1.5rem;
+     justify-content: center;
+     padding: 3rem 0rem 3rem 0rem;
 
-    background-image: url(../../../public/images/Home/deepbluebgone.png);
+    background-image: url(../../../public/images/Home/visionone.png);
     background-repeat: no-repeat;
-    /* translate: (deg); */
-    /* transform: rotate(-1deg); */
-    margin-right: -0.8rem;
-    background-position: center;
-    /* border: 3px solid black; */
+    /* background-position: center; */
     background-size: 100% 100%;
 }
 
 .our_vision .cards_ourvision .our_vision_card2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 1.5rem;
+    /* justify-content: center; */
     align-items: center;
     width:  20rem;
     height: 29rem;
-     padding: 0% 2%;
+     /* padding: 0% 2%; */
+     /* justify-content: center; */
+     padding: 3rem 0rem 3rem 0rem;
 
-    background-image: url(../../../public/images/Home/greybgtwo.png);
+    background-image: url(../../../public/images/Home/visiontwo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -543,13 +559,14 @@
 .our_vision .cards_ourvision .our_vision_card3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 20rem;
     height: 29rem;
-    padding: 0% 2%;
+    /* padding: 0% 2%; */
+    /* justify-content: center; */
+    padding: 3rem 0rem 3rem 0rem;
 
-    background-image: url(../../../public/images/Home/deepbluethree.png);
+    background-image: url(../../../public/images/Home/visionthree.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -559,19 +576,105 @@
     width:  25%;
     height: 15%;
 }
+.our_vision_img1{
+    width: 97px;
+    height: 97px;
+    background-image: url(../../../public/images/Home/thumbsup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* border: 3px solid green; */
+}
+.our_vision_img2{
+    width: 105px;
+    height: 105px;
+    margin-top: 1rem;
+    background-image: url(../../../public/images/Home/BalanceScale.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 3px solid green; */
+    background-size: 100% 100%;
+}
+.our_vision_img3{
+    width: 155px;
+    height: 155px;
+    /* border: 3px solid green; */
+    background-image: url(../../../public/images/Home/MountEverest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
 
 
-.cards_ourvision h3 {
-    font-family: 'Kanit';
+.core_value_heading{
+    font-family: 'Kanit',sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size:   25px;
+    margin-top: 0.5rem;
+    font-size:   30px;
+    line-height: 45px;
+    text-align: center;
+    color: #151319;
+
+}
+
+/* .cards_ourvision h3 {
+} */
+.vision_inside_heading{
+
+    
+    font-family: 'Kanit',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:   30px;
     line-height: 45px;
     text-align: center;
     color: #FFFFFF;
 }
+.core_value_ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0rem 0rem 0rem 4rem;
+}
 
-.cards_ourvision p {
+.core_value_para{
+    font-family: 'Kanit',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 33px;
+    color: #151319;
+    text-align: center;
+    width: 100%;
+
+}
+.vision-goal{
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+/* margin: 0%; */
+margin-top: -1rem;
+line-height: 45px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.vision_inside_para{
+    font-family: 'Kanit',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+
+}
+/* .cards_ourvision p {
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 500;
@@ -580,7 +683,7 @@
     color: #FFFFFF;
     text-align: center;
     width: 100%;
-}
+} */
 
 
 .ourvisionline h2 {
