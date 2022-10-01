@@ -11,6 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+::-webkit-scrollbar {
+  width: 1px;
+  background: #c4c4c4;
+  border-radius: 10px;
+  /* margin: 0rem 1.5rem 0rem 0rem; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #a09f9f;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a09f9f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Kanit:wght@500&family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&family=Mulish:ital,wght@0,200;0,400;1,200&family=Poppins:wght@300;400;500&family=Roboto:ital,wght@1,300&family=Titillium+Web:wght@900&family=Work+Sans:ital@0;1&display=swap');
 a.active{
   border-bottom: 2px solid white;

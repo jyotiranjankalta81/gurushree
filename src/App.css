@@ -1,6 +1,8 @@
  .App {
   width: 100%;
   overflow: hidden;
+  /* scroll-behavior: ; */
+  overflow-y: hidden;
   
 }
 /*
