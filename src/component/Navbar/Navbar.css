@@ -225,6 +225,9 @@
         display: block;
         /* background-color: green; */
     }
+    .dropbtn{
+        width: 10rem;
+    }
 
     
 

@@ -67,6 +67,9 @@
     .section1 {
         flex-direction: column;
     }
+    .industry_into_img{
+        width: 95%;
+    }
        
 }
 @media only screen and (max-width:821px) {
