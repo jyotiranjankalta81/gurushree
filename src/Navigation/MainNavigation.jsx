@@ -18,6 +18,7 @@ import Buildcon from "../Component2/Buildcon/Buildcon";
 import Associates from "../Component2/Associates/Associates";
 import Dropdown from "../component/Navbar/Dropdown";
 import ScrollToTop from "../component/ScrollToTop";
+import TermCondition from "../component/TermCondition/TermCondition";
 
 
 
@@ -34,6 +35,7 @@ function MainNavigation() {
                     <Route exact path="/contact" element={<Contact />} />
                     <Route exact path="/career" element={<Career />} />
                     <Route exact path="/dropdown" element={<Dropdown />} />
+                    <Route exact path="/terms" element={<TermCondition/>} />
 
                     <Route exact path="/product" element={<Product />} />
                     <Route exact path="/business" element={<Business />} />

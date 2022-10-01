@@ -1,0 +1,21 @@
+.termcondition_cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+
+
+}
+.term_main_container{
+    width: 90%;
+margin-top: 2rem;
+
+    /* border: 2px solid red; */
+}
+.term_main_container p,li{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}

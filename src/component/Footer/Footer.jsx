@@ -36,7 +36,7 @@ function Footer() {
 
           <div className="footer_div2">
             <h3 className='link_head'>Links</h3>
-            <Link to="/">Terms & Conditions</Link> <br />
+            <Link to="/terms">Terms & Conditions</Link> <br />
             <Link to="/">Privacy Policy</Link> <br />
             <img className='iso_logo' src="images/Footer/iso.png" alt="" />
             <h4>An ISO certified organization</h4>
