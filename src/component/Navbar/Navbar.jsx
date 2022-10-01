@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink,useNavigate } from "react-router-dom";
 import './Navbar.css';
 import FeatherIcon from 'feather-icons-react';
 import AOS from "aos";
@@ -11,6 +11,21 @@ import Dropdown from "./Dropdown";
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     const [popup, setPopup] = React.useState(false);
+
+    const navigate = useNavigate();
+
+    const handleIndustry = () => {
+        navigate("/industries",{replace:"true"});
+        window.location.reload();
+    }
+    const handleElite = () => {
+        navigate("/associates",{replace:"true"});
+        window.location.reload();
+    }
+    const handleMineral = () => {
+        navigate("/minerals",{replace:"true"});
+        window.location.reload();
+    }
 
     const [view, setView] = useState(false);
 
@@ -35,70 +50,38 @@ function Navbar() {
 
         <nav className="navbar">
             <div data-aos="fade-right" className="shadow"></div>
-            {/* <ul className={isMobile ? "nav-links-mobile navbar-links" : "navbar-links"} onClick={() => { setIsMobile(false) }}> */}
             <ul className={isMobile ? "nav-links-mobile navbar-links" : "navbar-links"} >
-            {/* <ul className= "nav-links-mobile navbar-links"> */}
-
                 <Link to='/'> <img src="images/Header/logo.png" className="header-dots-img" data-aos="fade-down" alt="" /></Link>
 
                 <li className="nav-item">
                     <NavLink className="nav-link" activeclassname="active" to="/" >Home</NavLink>
                 </li>
-                {/* <li className="nav-item ">
-                    <NavLink className="nav-link " to="/aboutus" >About Us</NavLink>
-                </li> */}
                 <li className="nav-item">
                     <div className="dropdown">
-                        <button className="dropbtn">
+                        <div className="dropbtn">
                             {getWidth() ? (
-                                <div>
-                                    <h3 className="nav-link" onClick={()=> setPopup(true)} >About</h3>
-                                    
-                                    {/* <Dropdown/> */}
+                                <div style={{width:"100%"}}>
+                                    <h3 style={{margin:"0%"}} className="nav-link" onClick={() => setPopup(true)} >About US</h3>
                                 </div>
-                                
-
                             ) : (
-
                                 <NavLink className="nav-link " to="/aboutus"  >About Us</NavLink>
-
                             )}
-                        </button>
+                        </div>
                         <div className="dropdown-content">
-                            <Link to="/minerals">M/s Gurushree Minerals Pvt. Ltd.</Link>
-                            <Link to="/industries">M/s Gurushree Industries Pvt. Ltd.</Link>
+                            <p onClick={handleMineral}>M/s Gurushree Minerals Pvt. Ltd.</p>
+                            <p onClick={handleIndustry}>M/s Gurushree Industries Pvt. Ltd.</p>
                             <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
-                            <Link to="/associates">M/s Elite Associates</Link>
+                            <p onClick={handleElite}>M/s Elite Associates</p>
                         </div>
                     </div>
-                        {popup && <Dropdown Popup={setPopup}/>}
+                    {/* {popup && <Dropdown Popup={setPopup} />} */}
                 </li>
-
                 <li className="nav-item ">
                     <NavLink className="nav-link " to="/product" >Our Products</NavLink>
                 </li>
                 <li className="nav-item ">
                     <NavLink className="nav-link " to="/career" >Career</NavLink>
                 </li>
-
-
-                {/* <li className="nav-item ">
-                    <NavLink className="nav-link " to="/latest-updates" >Latest Updates</NavLink>
-                </li> */}
-                {/* <li className="nav-item "> */}
-
-                {/* <div class="dropdown"> */}
-                {/* <button class="dropbtn"> */}
-                {/* <NavLink className="nav-link " to="/blogs" >Blogs</NavLink> */}
-                {/* </button> */}
-                {/* <div class="dropdown-content">
-                            <Link to="/blogs">Mining</Link>
-                            <Link to="/blogs">Production</Link>
-                            <Link to="/blogs">Hiring Services</Link>
-                            <Link to="/blogs">Real Estate</Link>
-                        </div> */}
-                {/* </div> */}
-                {/* </li> */}
                 <li className="nav-item ">
                     <NavLink className="nav-link " to="/contact" >Contact Us</NavLink>
                 </li>

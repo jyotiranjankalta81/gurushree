@@ -24,70 +24,70 @@ export default function Industries() {
                 <div className="slider">
                     <div className="slide_track">
                         <div className="slide">
-                            <img src="images/Component2/i1.png" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 1.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                            <img src="images/Component2/i2.png" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                            <img src="images/Component2/i3.png" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                            <img src="images/Component2/i4.png" alt="" className='sliding_img' />
-                        </div>
-
-
-
-                        <div className="slide">
-                            <img src="images/Component2/i1.png" alt="" className='sliding_img' />
-                        </div>
-                        <div className="slide">
-                        <img src="images/Component2/i2.png" alt="" className='sliding_img' />
-                        </div>
-                        <div className="slide">
-                        <img src="images/Component2/i3.png" alt="" className='sliding_img' />
-                        </div>
-                        <div className="slide">
-                        <img src="images/Component2/i4.png" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 4.jpg" alt="" className='sliding_img' />
                         </div>
 
 
+
                         <div className="slide">
-                            <img src="images/Component2/i1.png" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i2.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i3.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 7.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i4.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 8.png" alt="" className='sliding_img' />
                         </div>
 
 
                         <div className="slide">
-                            <img src="images/Component2/i1.png" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 9.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i2.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 10.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i3.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i4.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 12.jpg" alt="" className='sliding_img' />
                         </div>
 
 
                         <div className="slide">
-                            <img src="images/Component2/i1.png" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 1.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i2.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/i3.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/Image 4.jpg" alt="" className='sliding_img' />
+                        </div>
+
+
+                        <div className="slide">
+                            <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/Image 7.jpg" alt="" className='sliding_img' />
                         </div>
                     </div>
                 </div>
