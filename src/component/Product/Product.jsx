@@ -7,6 +7,11 @@ import Datas from "./Data"
 
 function Product() {
 
+  useEffect(() => {
+    window.scrollTo(0,600);
+  }, []);
+  
+
 
   return (
     <div className="">

@@ -144,11 +144,11 @@ function Home() {
             </div>
             <div className="our_para2">
               <img src='images/Home/pause2.png' className="our_img" />
-              <p>Production</p>
+              <p>Manufacturing</p>
             </div>
             <div className="our_para2">
               <img src='images/Home/pause2.png' className="our_img" />
-              <p>Hiring Services</p>
+              <p>Equipment Leasing Services</p>
             </div>
             <div className="our_para2">
               <img src='images/Home/pause2.png' className="our_img" />
@@ -177,8 +177,6 @@ function Home() {
               <img src='images/Home/pause.png' className="our_img" alt="" />
               <p><img src='images/Home/jsw1.jpeg' alt="" className='clients_img1' /></p>
             </a>
-
-
             <a href="https://www.jindalsteelpower.com/" className="our_para3">
               <img src='images/Home/pause.png' className="our_img" alt="" />
               <p><img src='images/Home/jindal.png' alt="" /></p>
@@ -192,6 +190,67 @@ function Home() {
             <a href="https://www.rashmigroup.com/" className="our_para3">
               <img src='images/Home/pause.png' className="our_img" alt="" />
               <p><img src='images/Home/rashmi_group.jpeg' alt="" className='clients_img2' /></p>
+            </a>
+            <a href="https://www.tatasteel.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/tata.png' alt="" />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Tata Steel Ltd. Dhenkanal, Odisha</span>
+              </p>
+            </a>
+            <a href="https://www.tatasteel.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/tata.png' alt="" />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Tata Steel Ltd. (Ferro Alloy Division), Joda, Odisha</span>
+              </p>
+            </a>
+            <a href="https://www.tatasteel.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/tata.png' alt="" />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Tata Steel Long Product Ltd. Adityapur, Jharkhand & Joda, Odisha</span>
+              </p>
+            </a>
+            <a href="https://www.tatasteel.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/tata.png' alt="" />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Tata Steel Long Product Ltd. Joda, Odisha</span>
+              </p>
+            </a>
+            <a href="https://www.jswsteel.in/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/jsw.jpeg' alt="" className='clients_img1' />
+              <span style={{fontSize:"0.5rem",color:"white"}}>JSW Bhushan Power and Steel Limited, Sambalpur, Odisha
+              </span>
+              </p>
+            </a>
+            <a href="https://www.jindalsteelpower.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/jindal.png' alt="" />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Jindal Steel &amp; Power Ltd, Raigarh</span>
+              </p>
+            </a>
+            <a href="https://www.jindalsteelpower.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/jindal.png' alt="" />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Jindal Steel &amp; Power Ltd, Angul</span>
+              </p>
+            </a>
+            <a href="https://www.rashmigroup.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/rashmi_group.jpeg' alt="" className='clients_img2' />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Rashmi Metaliks Ltd.</span>
+              </p>
+            </a>
+            <a href="https://www.rashmigroup.com/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/rashmi_group.jpeg' alt="" className='clients_img2' />
+              <span style={{fontSize:"0.5rem",color:"white"}}>Rashmi Cement Ltd.</span>
+              </p>
+            </a>
+            <a href="https://www.jswsteel.in/" className="our_para3">
+              <img src='images/Home/pause.png' className="our_img" alt="" />
+              <p><img src='images/Home/jsw.jpeg' alt="" className='clients_img1' />
+              <span style={{fontSize:"0.5rem",color:"white"}} >JSW Ispat Special Product Ltd. Raigarh, Chhattisgarh.</span>
+              </p>
             </a>
 
 
@@ -239,7 +298,7 @@ function Home() {
             </div>
 
             <div className="cards_ourvision">
-              <div className="our_vision_card1"  data-aos="fade-left">
+              <div className="our_vision_card1" data-aos="fade-left">
                 <div className="our_vision_img1"></div>
                 <h3 className="vision_inside_heading" >Core Purpose</h3>
                 <p className="vision_inside_para">To help leading enterprises <br /> more competent productive <br /> & satisfied</p>

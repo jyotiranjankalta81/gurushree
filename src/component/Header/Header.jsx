@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const images = ["../images/Home/crs1.jpg", "../images/Home/crs2.jpg", "../images/Home/crs3.jpg", "../images/Home/crs4.jpg", "../images/Home/crs1.jpg", "../images/Component2/crouslemineral2.jpg","../images/Home/crousel4.jpg","../images/Home/crousel7.jpg","../images/Home/crousel8.jpg","../images/Home/crousel9.jpg","../images/Home/crousel10.jpg"];
+const images = ["images/Component2/Image 10.jpg", "images/Home/crs2.jpg", "images/Component2/Image 8.png", "images/Component2/Image 3.jpg", "images/Component2/Image 1.jpg","images/Home/crousel4.jpg","images/Home/crousel7.jpg","images/Home/crousel8.jpg","images/Home/crousel9.jpg","images/Home/crousel10.jpg"];
 
 function Header() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,7 +24,7 @@ function Header() {
       else {
         setCurrentIndex(currentIndex + 1);
       }
-    }, 2000)
+    }, 3000)
 
     return () => clearInterval(intervalId);
   }, [currentIndex])

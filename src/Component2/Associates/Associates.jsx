@@ -1,9 +1,13 @@
-import React from 'react'
+import * as React from 'react'
 import './Associates.css'
 
 
 
 export default function Associates() {
+
+    React.useEffect(() => {
+        window.scrollTo(0,600);
+      }, []);
     return (
         <>
             <div className='associates'>

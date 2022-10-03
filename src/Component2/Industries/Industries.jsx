@@ -1,9 +1,13 @@
-import React from 'react'
+import * as React from 'react'
 import './Industries.css'
 
 
 
 export default function Industries() {
+
+    React.useEffect(() => {
+        window.scrollTo(0,600);
+      }, []);
     return (
         <>
             <div className='industries'>
@@ -24,7 +28,7 @@ export default function Industries() {
                 <div className="slider">
                     <div className="slide_track">
                         <div className="slide">
-                            <img src="images/Component2/Image 1.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
                             <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
@@ -45,32 +49,29 @@ export default function Industries() {
                         <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 7.jpg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 8.png" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
                         </div>
 
 
                         <div className="slide">
-                            <img src="images/Component2/Image 9.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 4.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 10.jpg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
+                        </div>
+                        <div className="slide">
+                        <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
                         <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
                         </div>
-                        <div className="slide">
-                        <img src="images/Component2/Image 12.jpg" alt="" className='sliding_img' />
-                        </div>
 
 
                         <div className="slide">
-                            <img src="images/Component2/Image 1.jpg" alt="" className='sliding_img' />
-                        </div>
-                        <div className="slide">
-                        <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
                         <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
@@ -78,16 +79,19 @@ export default function Industries() {
                         <div className="slide">
                         <img src="images/Component2/Image 4.jpg" alt="" className='sliding_img' />
                         </div>
+                        <div className="slide">
+                        <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
+                        </div>
 
 
                         <div className="slide">
-                            <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 7.jpg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                     </div>
                 </div>

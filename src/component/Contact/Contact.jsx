@@ -108,7 +108,9 @@ function Contact() {
             <img src="images/Footer/location.png" alt="address" />
             <div className="contact-address-address">
               <p>
-                Shop No. 39-42, Ground Floor,
+                Gurushree Minerals Pvt. Ltd
+                <br />
+                39-42, Ground Floor,
                 <br />
                 Krishna Crown
                 <br />

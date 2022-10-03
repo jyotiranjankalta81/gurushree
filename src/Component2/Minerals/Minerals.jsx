@@ -1,9 +1,13 @@
-import React from 'react'
+import * as React from 'react'
 import './Minerals.css'
 
 
 
 export default function Minerals() {
+
+    React.useEffect(() => {
+        window.scrollTo(0,600);
+      }, []);
     return (
         <>
             <div className='minerals'>
@@ -19,7 +23,7 @@ export default function Minerals() {
                 <div className="slider">
                     <div className="slide_track">
                         <div className="slide">
-                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
                             <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
@@ -31,49 +35,49 @@ export default function Minerals() {
                             <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 7.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 8.png" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 10.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 12.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 7.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 8.png" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 10.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/sideminerla.jpeg" alt="" className='sliding_img' />
+                        <img src="images/Component2/Image 12.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                            <img src="images/Component2/crouselmineral.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/mineralsentry.jpeg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
+                            <img src="images/Component2/cruser.jpeg" alt="" className='sliding_img' />
                         </div>
                     </div>
                 </div>

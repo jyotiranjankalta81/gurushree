@@ -46,10 +46,11 @@ export default function TermCondition() {
           <Button
             variant="text"
             sx={{
-              width: "10%",
+              width: "auto",
               mt: 4,
               mb: 4,
               textTransform: "none",
+              fontFamily:"Kanit,sans-serif",
               color: "#00000",
               // backgroundColor: "#3898E2",
               // "&:hover": {
@@ -62,10 +63,11 @@ export default function TermCondition() {
           <Button
             variant="contained"
             sx={{
-              width: "12%",
+              width: "auto",
               mt: 4,
               mb: 4,
               textTransform: "none",
+              fontFamily:"Kanit,sans-serif",
               color: "#FFFFFF",
               backgroundColor: "#898787",
               "&:hover": {

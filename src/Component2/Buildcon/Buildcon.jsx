@@ -1,9 +1,13 @@
-import React from 'react'
+import * as React from 'react'
 import './Buildcon.css'
 
 
 
 export default function Buildcon() {
+
+    React.useEffect(() => {
+        window.scrollTo(0,600);
+      }, []);
     return (
         <>
             <div className='buildcon'>
