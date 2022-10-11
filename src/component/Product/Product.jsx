@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import Navbar from "../Navbar/Navbar";
 import "./Product.css";
@@ -14,7 +13,20 @@ function Product() {
 
 
   return (
-    <div className="">
+    <>
+    <div>
+        <Navbar />
+        <div className="header_img_div">
+          <img src="images/Home/crousel4.jpg" className="header-header-bg_style" />
+        </div>
+        <div class="text-block_style">
+          <div className="header-title" data-aos="fade-right">
+            <h1 className="header-title-h1_style">PRODUCTS</h1>
+          </div>
+        </div>
+        <center>
+        </center>
+      </div>
       {/* ------------header section--------- */}
 
 
@@ -38,7 +50,7 @@ function Product() {
           </div>
         ))}
       </section>
-    </div>
+    </>
   );
 }
 

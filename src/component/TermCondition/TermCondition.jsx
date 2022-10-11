@@ -1,8 +1,14 @@
-import React from "react";
+import * as React from "react";
 import Button from "@mui/material/Button";
 import "./TermCondition.css";
+import Header from "../Header/Header";
 export default function TermCondition() {
+  React.useEffect(() => {
+    window.scrollTo(0,600);
+  }, []);
   return (
+    <>
+    <Header/>
     <div className="termcondition_cont">
       <div className="term_main_container">
         <h2>Terms of Services</h2>
@@ -80,5 +86,6 @@ export default function TermCondition() {
         </div>
       </div>
     </div>
+    </>
   );
 }

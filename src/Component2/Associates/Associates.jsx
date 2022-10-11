@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Navbar from '../../component/Navbar/Navbar';
 import './Associates.css'
 
 
@@ -10,6 +11,19 @@ export default function Associates() {
       }, []);
     return (
         <>
+        <div>
+        <Navbar />
+        <div className="header_img_div">
+          <img src="images/Home/crousel7.jpg" className="header-header-bg_style" />
+        </div>
+        <div class="text-block_style">
+          <div className="header-title" data-aos="fade-right">
+            <h1 className="header-title-h1_style">Elite Associates Pvt. Ltd.</h1>
+          </div>
+        </div>
+        <center>
+        </center>
+      </div>
             <div className='associates'>
                 <br />
                 <h2>M/s Elite associates</h2>

@@ -43,7 +43,20 @@ function About() {
   ])
 
   return (
-    <div className="">
+    <>
+      <div>
+        <Navbar />
+        <div className="header_img_div">
+          <img src="images/Home/crousel8.jpg" className="header-header-bg_style" />
+        </div>
+        <div class="text-block_style">
+          <div className="header-title" data-aos="fade-right">
+            <h1 className="header-title-h1_style">ABOUT US</h1>
+          </div>
+        </div>
+        <center>
+        </center>
+      </div>
       <section className='welcome_section1'>
         <div className="row1">
           <div className="arrow_img" data-aos="fade-right">
@@ -253,7 +266,7 @@ function About() {
           <br />
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

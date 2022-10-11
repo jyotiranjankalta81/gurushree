@@ -8,7 +8,7 @@ import './Client.css'
 function Client() {
 	return (
 
-		<div>
+		<>
 			<div className="Spring3d testimonial-bg">
 				<div className="Spring3d-He">
 					<h1>Testimonial</h1>
@@ -24,7 +24,7 @@ function Client() {
 					<VideoCarousel />
 				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 export default Client;

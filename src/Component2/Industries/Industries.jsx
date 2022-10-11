@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Navbar from '../../component/Navbar/Navbar';
 import './Industries.css'
 
 
@@ -6,10 +7,23 @@ import './Industries.css'
 export default function Industries() {
 
     React.useEffect(() => {
-        window.scrollTo(0,600);
-      }, []);
+        window.scrollTo(0, 600);
+    }, []);
     return (
         <>
+            <div>
+                <Navbar />
+                <div className="header_img_div">
+                    <img src="images/Component2/Image 5.jpg" className="header-header-bg_style" />
+                </div>
+                <div class="text-block_style">
+                    <div className="header-title" data-aos="fade-right">
+                        <h1 className="header-title-h1_style">Gurushree Industries Pvt. Ltd.</h1>
+                    </div>
+                </div>
+                <center>
+                </center>
+            </div>
             <div className='industries'>
                 <br />
                 <h2>M/s Gurushree Industries Pvt. Ltd.</h2>
@@ -46,13 +60,13 @@ export default function Industries() {
                             <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
                         </div>
 
 
@@ -60,13 +74,13 @@ export default function Industries() {
                             <img src="images/Component2/Image 4.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
                         </div>
 
 
@@ -74,13 +88,13 @@ export default function Industries() {
                             <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 3.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 4.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 4.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 5.jpg" alt="" className='sliding_img' />
                         </div>
 
 
@@ -88,10 +102,10 @@ export default function Industries() {
                             <img src="images/Component2/Image 6.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 11.jpg" alt="" className='sliding_img' />
                         </div>
                         <div className="slide">
-                        <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
+                            <img src="images/Component2/Image 2.jpg" alt="" className='sliding_img' />
                         </div>
                     </div>
                 </div>

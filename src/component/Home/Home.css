@@ -106,7 +106,7 @@
 .product-bg {
     background-image: url(../../../public/images/Home/Product-bg.png);
     background-repeat: no-repeat;
-    height: 40em;
+    height: 100vh;
     background-position: center;
     width: 100%;
     /* border: 2px solid black; */
@@ -122,7 +122,7 @@
     height: 75%;
     display: flex;
     justify-content: flex-start;
-    margin-top: 7%;
+    margin-top: 5%;
     gap: 4rem;
 }
 
@@ -152,7 +152,7 @@
 
 .right_card {
     /* border: 2px solid white; */
-    width: 65%;
+    width: 68%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +163,7 @@
 .card-body {
     width: 35%;
     height: auto;
-    /* border: 2px solid white; */
+    border: 7px solid #273246;
     background: #E7F0F7;
     box-shadow: 0px 4px 12px 0px #00000040;
     border-radius: .5rem;
@@ -221,6 +221,7 @@
     width: 25%;
     height: 25rem;
     background: #273246;
+    border: 5px solid grey;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-size: 100% 100%;
 }
@@ -409,6 +410,7 @@
     width: 25.5%;
     height: 25rem;
     background: #E7F0F7;
+    border: 5px solid #273246;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-size: 100% 100%;
 
@@ -418,6 +420,7 @@
     width: 25%;
     height: 25rem;
     background: #273246;
+    border: 5px solid grey;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-size: 100% 100%;
     overflow-y: scroll;
@@ -466,6 +469,7 @@
     width: 25%;
     height: 25rem;
     background: #E7F0F7;
+    border: 5px solid #273246;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-size: 100% 100%;
 

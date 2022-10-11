@@ -1,5 +1,10 @@
 .footer-bg {
-    background-image: url(../../../public/images/Footer/Vector\ 27.png);
+    background-image:linear-gradient(to top right,#000000
+    50%,#4b4646
+    20%
+    /* rgba(0, 0, 0, 0.527),#FFFFFF */
+    /* rgba(0, 0, 0, 0.5) */
+    ), url(../../../public/images/Footer/Vector\ 27.png);
     background-repeat: no-repeat;
     height: 35rem;
     width: 100%;
@@ -7,9 +12,11 @@
     z-index: -2;
     /* border: 2px solid black; */
     /* margin-top: -10rem; */
+    /* opacity: 2.5; */
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 1rem;
     flex-direction: column;
 }
 

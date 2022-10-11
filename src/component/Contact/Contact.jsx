@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axiosInstance from "../../helper/axiosInstance";
+import Header from "../Header/Header";
 
 function Contact() {
   useEffect(() => {
@@ -41,6 +42,21 @@ function Contact() {
     }
   }
   return (
+    <>
+    <div>
+        <Navbar />
+        <div className="header_img_div">
+          <img src="images/Contact/contactus.png" className="header-header-bg_styles" />
+          <div className="circle_about">Contact Us</div>
+        </div>
+        <div class="text-block_style">
+          <div className="header-title" data-aos="fade-right">
+            <h1 className="header-title-h1_style"></h1>
+          </div>
+        </div>
+        <center>
+        </center>
+      </div>
     <section className="contactus-form " data-aos="flip-left">
       <div className="form-fields" data-aos="fade-up-right">
         <div className="left-arrow"> </div>
@@ -163,6 +179,8 @@ function Contact() {
         </div>
       </div>
     </section>
+
+    </>
 
   );
 }

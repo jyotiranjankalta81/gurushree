@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import FeatherIcon from 'feather-icons-react';
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
 function Home() {
   const myRef = useRef(null);
@@ -17,7 +18,8 @@ function Home() {
 
   return (
     <>
-      <div className="">
+    
+      <Header/>
         {/* Welocme section */}
         <section className="welcome_section">
           <div className="img_section">
@@ -405,8 +407,6 @@ function Home() {
           </div>
 
         </section>
-
-      </div>
 
     </>
   );

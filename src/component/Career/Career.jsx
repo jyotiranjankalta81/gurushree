@@ -48,7 +48,20 @@ function Career() {
   }, []);
 
   return (
-    <div>
+    <>
+      <div>
+        <Navbar />
+        <div className="header_img_div">
+          <img src="images/Component2/Image 1.jpg" className="header-header-bg_style" />
+        </div>
+        <div class="text-block_style">
+          <div className="header-title" data-aos="fade-right">
+            <h1 className="header-title-h1_style">CAREER</h1>
+          </div>
+        </div>
+        <center>
+        </center>
+      </div>
       <div className="career-h1" data-aos="fade-down">
         <h1>CAREERS</h1>
         <div className="career-line"></div>
@@ -111,7 +124,7 @@ function Career() {
           </div>
         </div>
       </section>
-    </div>
+    </>
 
   );
 }

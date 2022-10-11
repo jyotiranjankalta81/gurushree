@@ -27,7 +27,7 @@ function MainNavigation() {
         <div className="main">
             <Router>
                 <ScrollToTop />
-                <Header />
+                {/* <Header /> */}
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route exact path="/aboutus" element={<About />} />
