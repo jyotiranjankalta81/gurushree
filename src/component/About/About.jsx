@@ -3,6 +3,7 @@ import './About.css';
 import Navbar from '../Navbar/Navbar';
 import AOS from "aos";
 import Carousel from 'react-grid-carousel';
+import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 
@@ -47,11 +48,12 @@ function About() {
       <div>
         <Navbar />
         <div className="header_img_div">
-          <img src="images/Home/crousel8.jpg" className="header-header-bg_style" />
+          <img src="images/About/aboutbg.png" className="header-header-bg_style" />
+          <div className="circle_about">About Us</div>
         </div>
         <div class="text-block_style">
           <div className="header-title" data-aos="fade-right">
-            <h1 className="header-title-h1_style">ABOUT US</h1>
+            <h1 className="header-title-h1_style"></h1>
           </div>
         </div>
         <center>
@@ -143,7 +145,7 @@ function About() {
 
       {/* Our Vision Section */}
 
-      <section className='our-vision-bg'>
+      {/* <section className='our-vision-bg'>
         <h1 className="our_vision_head" data-aos="fade-up">
           Our Vision
         </h1>
@@ -154,9 +156,9 @@ function About() {
         <div className="vision_card_container">
           <div className="vision_card" data-aos="zoom-out-right">
             <h3 className='vision_head'>Core Purpose</h3>
-            <p className='vision_para'>To help leading enterprises
-              more competent productive
-              & satisfied</p>
+            <p className='vision_para'>
+              To help leading Enterprises become more competent, Productive  &amp; Satisfied.
+            </p>
 
           </div>
 
@@ -172,15 +174,17 @@ function About() {
 
           <div className="vision_card2" data-aos="zoom-out-left">
             <h3 className='vision_head'>BHAG <br /> <span>(Mount Everest Goal)</span> </h3>
-            <p className='vision_paras'>Gurushree Group to achieve annual turnoverof rs 10.000 cr by 15’th August 2041</p>
+            <p className='vision_paras'>
+              Gurushree Group to achieve Annual Turnover of Rs. 10,000 Cr by 15’th August 2041.
+            </p>
 
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className='team-section'>
         <div className="our_team_head" data-aos="fade-up">
-          <h1 className='h1'>Core Members</h1>
+          <h1 className='h1'>Core Management</h1>
           <div className="our_team_line"></div>
         </div>
         <br />
@@ -189,8 +193,8 @@ function About() {
             <div className="core_members">
               <div className="member1" data-aos="flip-left">
                 <img className='avatar_img' src="images/Home/avatar1.png" alt="" />
-                <p>Nanak Bansal <br />
-                  Chief Managing Director</p>
+                <p>Mr.Nanak Bansal <br />
+                  (Chief Managing Director)</p>
               </div>
 
               <div className="borderimg">
@@ -217,8 +221,8 @@ function About() {
             <div className="core_members">
               <div className="member1" data-aos="flip-left">
                 <img className='avatar_img' src="images/Home/avatar1.png" alt="" />
-                <p>Mukesh Bansal <br />
-                  Managing Director</p>
+                <p>Mr.Mukesh Bansal <br />
+                  (Managing Director)</p>
               </div>
 
               <div className="borderimg" >

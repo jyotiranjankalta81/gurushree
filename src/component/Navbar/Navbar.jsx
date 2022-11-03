@@ -49,14 +49,18 @@ function Navbar() {
     return (
 
         <nav className="navbar">
-            <div data-aos="fade-right" className="shadow"></div>
+            <div 
+            // data-aos="fade-right" 
+            className="shadow"></div>
             <ul className={isMobile ? "nav-links-mobile navbar-links" : "navbar-links"} >
-                <Link to='/'> <img src="images/Header/logo.png" className="header-dots-img" data-aos="fade-down" alt="" /></Link>
+                <Link to='/'> <img src="images/Header/logo.png" className="header-dots-img" 
+                // data-aos="fade-down"
+                 alt="" /></Link>
 
-                <li className="nav-item">
+                <div className="nav-item">
                     <NavLink className="nav-link" activeclassname="active" to="/" >Home</NavLink>
-                </li>
-                <li className="nav-item">
+                </div>
+                <div className="nav-item">
                     <div className="dropdown">
                         <div className="dropbtn">
                             {getWidth() ? (
@@ -70,21 +74,21 @@ function Navbar() {
                         <div className="dropdown-content">
                             <p onClick={handleMineral}>M/s Gurushree Minerals Pvt. Ltd.</p>
                             <p onClick={handleIndustry}>M/s Gurushree Industries Pvt. Ltd.</p>
-                            <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
+                            {/* <p>M/s Gurushree Buildcon Pvt. Ltd.</p> */}
                             <p onClick={handleElite}>M/s Elite Associates</p>
                         </div>
                     </div>
                     {/* {popup && <Dropdown Popup={setPopup} />} */}
-                </li>
-                <li className="nav-item ">
+                </div>
+                <div className="nav-item ">
                     <NavLink className="nav-link " to="/product" >Our Products</NavLink>
-                </li>
-                <li className="nav-item ">
+                </div>
+                <div className="nav-item ">
                     <NavLink className="nav-link " to="/career" >Career</NavLink>
-                </li>
-                <li className="nav-item ">
+                </div>
+                <div className="nav-item ">
                     <NavLink className="nav-link " to="/contact" >Contact Us</NavLink>
-                </li>
+                </div>
             </ul>
             <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>{isMobile ? <i><FeatherIcon icon="x" /></i> : <i><FeatherIcon icon="menu" /></i>} </button>
 

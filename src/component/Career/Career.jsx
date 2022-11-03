@@ -52,11 +52,12 @@ function Career() {
       <div>
         <Navbar />
         <div className="header_img_div">
-          <img src="images/Component2/Image 1.jpg" className="header-header-bg_style" />
+          <img src="images/Career/careerbg.png" className="header-header-bg_style" />
+          <div className="circle_about">Career</div>
         </div>
         <div class="text-block_style">
           <div className="header-title" data-aos="fade-right">
-            <h1 className="header-title-h1_style">CAREER</h1>
+            <h1 className="header-title-h1_style"></h1>
           </div>
         </div>
         <center>
@@ -101,10 +102,6 @@ function Career() {
         </div>
 
       </div>
-
-
-
-
       <section className='contact-career-form career-contact'>
         <div>
           <div className="mt-5">

@@ -6,19 +6,20 @@ import './Industries.css'
 
 export default function Industries() {
 
-    React.useEffect(() => {
-        window.scrollTo(0, 600);
-    }, []);
+    // React.useEffect(() => {
+    //     window.scrollTo(0, 600);
+    // }, []);
     return (
         <>
             <div>
                 <Navbar />
                 <div className="header_img_div">
-                    <img src="images/Component2/Image 5.jpg" className="header-header-bg_style" />
+                    <img src="images/Component2/industriesbg.png" className="header-header-bg_style" />
+                    <div className="circle_about">Industries</div>
                 </div>
                 <div class="text-block_style">
                     <div className="header-title" data-aos="fade-right">
-                        <h1 className="header-title-h1_style">Gurushree Industries Pvt. Ltd.</h1>
+                        <h1 className="header-title-h1_style"></h1>
                     </div>
                 </div>
                 <center>
@@ -28,7 +29,7 @@ export default function Industries() {
                 <br />
                 <h2>M/s Gurushree Industries Pvt. Ltd.</h2>
                 <div className="section1">
-                    <img src="images/Component2/industries.jpeg" className='industry_into_img' alt="" />
+                    <img src="images/Component2/Image 3.jpg" className='industry_into_img' alt="" />
                     <p>Gurushree Industries Pvt. Ltd. is an upcoming concern established in the year 2016 and has started
                         production with main objective of providing finest grade of Calcined Dolomite, Ferro Vanadium, Ferro
                         Molybdenum, Vanadium Pentoxide & Ammonium Meta Vanadate for use in Iron & Steel Industry.

@@ -28,7 +28,7 @@ export default function Dropdown({Popup}) {
           <Link to="/minerals">M/s Gurushree Minerals Pvt. Ltd.</Link>
           <Link to="/minerals"> Gurushree Group</Link>
           <Link to="/industries">M/s Gurushree Industries Pvt. Ltd.</Link>
-          <p>M/s Gurushree Buildcon Pvt. Ltd.</p>
+          {/* <p>M/s Gurushree Buildcon Pvt. Ltd.</p> */}
           <Link to="/associates">M/s Elite Associates</Link>
         </div>
       </Dialog>

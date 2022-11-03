@@ -8,16 +8,17 @@ import "aos/dist/aos.css";
 
 
 
-const images = ["images/Component2/Image 10.jpg",
-"images/Component2/Image 8.png",
-"images/Component2/Image 3.jpg",
-"images/Component2/Image 1.jpg",
-"images/Home/crousel4.jpg",
-"images/Home/crousel10.jpg"];
+const images = [
+  "images/Home/crousel4.jpg",
+  "images/Component2/Image 3.jpg",
+  "images/Component2/Image 10.jpg",
+];
+
+const name = ["Calcined Dolomite", "Dolomite Chips", "Mines"]
 
 function Header() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  
+
 
   useEffect(() => {
     AOS.init();
@@ -40,18 +41,18 @@ function Header() {
 
   return (
     <div>
-      
+
       <div>
         <Navbar />
-        <div className="header_img_div">
+        <div className="header_img_div_style">
           <img src={images[currentIndex]} className="header-header-bg" />
         </div>
         <div class="text-block">
           <div className="header-title" data-aos="fade-right">
             <h1 className="header-title-h1">Gurushree Minerals Pvt Ltd. </h1>
             <h3 className="header-title-detail" >
-               Sophisticated mining by deploying
-               <br /> state of the art machines
+              Sophisticated mining by deploying
+              <br /> state of the art machines
             </h3>
           </div>
         </div>

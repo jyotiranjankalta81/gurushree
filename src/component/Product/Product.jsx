@@ -6,9 +6,9 @@ import Datas from "./Data"
 
 function Product() {
 
-  useEffect(() => {
-    window.scrollTo(0,600);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0,600);
+  // }, []);
   
 
 
@@ -17,11 +17,12 @@ function Product() {
     <div>
         <Navbar />
         <div className="header_img_div">
-          <img src="images/Home/crousel4.jpg" className="header-header-bg_style" />
+          <img src="images/Product/productbg.png" className="header-header-bg_style" />
+          <div className="circle_about">Product</div>
         </div>
         <div class="text-block_style">
           <div className="header-title" data-aos="fade-right">
-            <h1 className="header-title-h1_style">PRODUCTS</h1>
+            <h1 className="header-title-h1_style"></h1>
           </div>
         </div>
         <center>

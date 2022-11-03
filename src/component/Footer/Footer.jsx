@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 import './Footer.css';
 import MapDirection from '../Pages/MapDirection';
 import Button from '@mui/material/Button';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CallIcon from '@mui/icons-material/Call';
+import { Call } from '@mui/icons-material';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 function Footer() {
@@ -20,7 +24,8 @@ function Footer() {
           <div className="footer_div1">
             <h1 className='footer_head'>Gurushree Minerals Pvt. Ltd.</h1>
             <div className='para_div'>
-              <img src="images/Footer/location.png" className='location-img' />
+              {/* <img src="images/Footer/location.png" className='location-img' /> */}
+              <LocationOnIcon sx={{transform:"scale(1.3)"}}/>
               <p className='p_add'>
                 39-42, Ground Floor, Krishna Crown
                 Chaitanya Nagar, Raigarh, Chhattishgarh-496001.</p>
@@ -49,8 +54,13 @@ function Footer() {
           </div>
           <div className="footer_div3">
             <h3 className='link_head'>Get In Touch</h3>
-            <div className="phone"><img src="images/Footer/call.png" alt="" /> <a href="tel:+91-7771012666">+91-7771012666</a> </div>
-            <div className="phone"><img src="images/Footer/mail.png" alt="" />
+            <div className="phone">
+              {/* <img src="images/Footer/call.png" alt="" /> */}
+               <Call sx={{transform:"scale(1.3)"}}/> &nbsp;
+                <a href="tel:+91-7771012666">+91-7771012666</a> </div>
+            <div className="phone">
+              <EmailIcon sx={{transform:"scale(1.3)"}}/> &nbsp;
+              {/* <img src="images/Footer/mail.png" alt="" /> */}
               <a href="mailto:contact@gurushree.in">
                 contact@gurushree.in
               </a></div>

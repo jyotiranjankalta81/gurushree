@@ -6,19 +6,20 @@ import './Minerals.css'
 
 export default function Minerals() {
 
-    React.useEffect(() => {
-        window.scrollTo(0, 600);
-    }, []);
+    // React.useEffect(() => {
+    //     window.scrollTo(0, 600);
+    // }, []);
     return (
         <>
             <div>
         <Navbar />
         <div className="header_img_div">
-          <img src="images/Component2/Image 7.jpg" className="header-header-bg_style" />
+          <img src="images/Component2/mineralsbg.png" className="header-header-bg_style" />
+          <div className="circle_about">Gurushree Minerals Pvt. Ltd.</div>
         </div>
         <div class="text-block_style">
           <div className="header-title" data-aos="fade-right">
-            <h1 className="header-title-h1_style">Gurushree Minerals Pvt. Ltd.</h1>
+            <h1 className="header-title-h1_style"></h1>
           </div>
         </div>
         <center>
@@ -32,7 +33,7 @@ export default function Minerals() {
                     <p>Gurushree Minerals Pvt. Ltd. is one of the major dolomite suppliers in the region and we supply processed dolomite ores to all major integrated steel manufacturing units in the region. The dolomite we supply are of very high grade and low in silica. Our mines are located at Baradwar, District Janjgir Champa, Chattishgarh</p>
                 </div>
 
-                <p> We provide Rake loading options for bulk supply of Dolomite. Our nearest rake point is Baradwar (BUA) and Barasuar Goods Shed Line NO.04- (PSBD), which is on the main line between Kolkata and Mumbai</p>
+                <p> We provide Rake loading options for bulk supply of Dolomite. Our nearest rake point is Baradwar (BUA) and Baradwar Goods Shed Line NO.04- (PSBD), which is on the main line between Kolkata and Mumbai</p>
 
                 <div className="slider">
                     <div className="slide_track">

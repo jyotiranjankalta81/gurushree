@@ -6,19 +6,20 @@ import './Associates.css'
 
 export default function Associates() {
 
-    React.useEffect(() => {
-        window.scrollTo(0,600);
-      }, []);
+    // React.useEffect(() => {
+    //     window.scrollTo(0,600);
+    //   }, []);
     return (
         <>
         <div>
         <Navbar />
         <div className="header_img_div">
-          <img src="images/Home/crousel7.jpg" className="header-header-bg_style" />
+          <img src="images/Component2/elitebg.png" className="header-header-bg_style" />
+          <div className="circle_about">Associates</div>
         </div>
         <div class="text-block_style">
           <div className="header-title" data-aos="fade-right">
-            <h1 className="header-title-h1_style">Elite Associates Pvt. Ltd.</h1>
+            <h1 className="header-title-h1_style"></h1>
           </div>
         </div>
         <center>

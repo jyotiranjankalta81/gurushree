@@ -46,7 +46,7 @@ function Contact() {
     <div>
         <Navbar />
         <div className="header_img_div">
-          <img src="images/Contact/contactus.png" className="header-header-bg_styles" />
+          <img src="images/Contact/contactusbg.png" className="header-header-bg_styles" />
           <div className="circle_about">Contact Us</div>
         </div>
         <div class="text-block_style">

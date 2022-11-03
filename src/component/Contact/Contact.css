@@ -7,22 +7,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-/* padding: 1rem; */
+    /* padding: 1rem; */
 }
-.circle_about{
-    width: 17rem;
-    height: 17rem;
-    background-color: #3F4A5A;
-    color: #FFFFFF;
+
+.circle_about {
+    width: 20rem;
+    height: 20rem;
+    background: #E7F0F7;
+    box-shadow: -5px 4px 20px rgba(0, 0, 0, 0.25);
+    /* color: #FFFFFF; */
+    color: #273246;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2.5rem;
-    font-family: "SegoeUI",sans-serif;
+    font-family: "SegoeUI", sans-serif;
     position: absolute;
-    top: 50%;
+    top: 37%;
     border-radius: 50%;
-    right: 10%;
+    right: -3%;
 }
 
 .form-control::placeholder {
@@ -120,7 +123,7 @@ form .subscribe button {
     width: 25%;
     height: 2rem;
 
-   
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -327,6 +330,7 @@ form .contactsection {
     margin-top: 5rem;
     margin-right: 5rem;
 }
+
 /* @media only screen and (min-width:821px) and (max-width:1084px) {
     .form-fields form{
         width: 80%;
@@ -348,6 +352,7 @@ form .contactsection {
         width: 80%;
 
     }
+    
 
     .left-arrow {
         display: none;
@@ -371,6 +376,14 @@ form .contactsection {
 @media only screen and (max-width:450px) {
     .contactus-form {
         padding: 1rem;
+    }
+    .circle_about {
+        top: 80%;
+        left: 30%;
+        font-size: 1.3rem;
+        width: 10rem;
+        height: 10rem;
+
     }
 
     .form-fields {
@@ -405,7 +418,8 @@ form .contactsection {
     .form-fields span {
         font-size: 1.3rem;
     }
-    .contactsection .contactus-phone{
+
+    .contactsection .contactus-phone {
         flex-direction: column;
         margin-top: 3rem;
     }
