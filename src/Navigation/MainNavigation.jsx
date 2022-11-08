@@ -1,11 +1,12 @@
 
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes, useHistory, useLocation, useParams, useRoutes} from "react-router-dom"
 import About from "../component/About/About";
 import Career from "../component/Career/Career";
 import Contact from "../component/Contact/Contact";
 import Home from "../component/Home/Home";
 import Product from "../component/Product/Product";
+import OurVision from "../component/OurVision/OurVision.jsx"
 import Header from "../component/Header/Header";
 import Footer from "../component/Footer/Footer";
 import Business from "../component/Business/Business";
@@ -23,6 +24,8 @@ import TermCondition from "../component/TermCondition/TermCondition";
 
 
 function MainNavigation() {
+
+
     return (
         <div className="main">
             <Router>
@@ -36,8 +39,8 @@ function MainNavigation() {
                     <Route exact path="/career" element={<Career />} />
                     <Route exact path="/dropdown" element={<Dropdown />} />
                     <Route exact path="/terms" element={<TermCondition/>} />
-
                     <Route exact path="/product" element={<Product />} />
+                    <Route exact path="/vision" element={<OurVision/>}/>
                     <Route exact path="/business" element={<Business />} />
                     <Route exact path="/vlog" element={<Blog />} />
                     <Route exact path="/latest-updates" element={<LatestUpdate />} />
@@ -46,7 +49,6 @@ function MainNavigation() {
                     <Route exact path="/buildcon" element={<Buildcon />} />
                     <Route exact path="/associates" element={<Associates />} />
                 </Routes>
-                <Footer />
             </Router>
         </div>
     );

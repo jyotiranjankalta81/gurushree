@@ -73,7 +73,7 @@ function Navbar() {
                         </div>
                         <div className="dropdown-content">
                             <p onClick={handleMineral}>M/s Gurushree Minerals Pvt. Ltd.</p>
-                            <p onClick={handleIndustry}>M/s Gurushree Industries Pvt. Ltd.</p>
+                            <p onClick={handleIndustry}>M/s Gurushree Industries Pvt. Ltd. <br /> (Noble Ferro Alloys)</p>
                             {/* <p>M/s Gurushree Buildcon Pvt. Ltd.</p> */}
                             <p onClick={handleElite}>M/s Elite Associates</p>
                         </div>
@@ -81,7 +81,10 @@ function Navbar() {
                     {/* {popup && <Dropdown Popup={setPopup} />} */}
                 </div>
                 <div className="nav-item ">
-                    <NavLink className="nav-link " to="/product" >Our Products</NavLink>
+                    <NavLink className="nav-link " to="/vision" >Vision</NavLink>
+                </div>
+                <div className="nav-item ">
+                    <NavLink className="nav-link " to="/product" >Products</NavLink>
                 </div>
                 <div className="nav-item ">
                     <NavLink className="nav-link " to="/career" >Career</NavLink>

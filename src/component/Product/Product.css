@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     /* border: 2px solid black; */
     width: 90%;
     gap: 7rem;
@@ -23,8 +23,9 @@
     text-transform: capitalize;
     font-size: 1rem;
     font-weight: 500;
+    font-style: italic;
     padding: .2rem 1rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 
 }
 
@@ -44,23 +45,25 @@
 
 .product-description {
     color: #3F3F3F;
-    font-family: 'Rasa';
-    font-size: 1.3rem;
+    /* font-family: 'Rasa'; */
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: justify;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+    /* border: 1px solid green; */
 
     /* border: 2px solid black; */
 
 }
 
 .product-description img {
-    width: 19rem;
-    height: 19rem;
+    width: 13rem;
+    height: 13rem;
     margin-left: 5%;
     border: 5px solid grey;
     border-radius: 12px;
@@ -70,7 +73,7 @@
     /* border: 2px solid black; */
     width: 80%;
     margin-left: 1rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     font-weight: 500;
     font-size: 1.25rem;
 }
@@ -89,7 +92,7 @@
 
 .description-btn p {
     margin-top: 1rem;
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     font-size: 16px;
     font-weight: 600;
     line-height: 30px;
@@ -106,7 +109,7 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url(../../../public/images/Home/logo_watermark.png);
+    /* background-image: url(../../../public/images/Home/logo_watermark.png); */
     background-repeat: no-repeat;
 
     background-position: center;
@@ -119,6 +122,9 @@
 
 .product-margin {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media only screen and (max-width:600px) {

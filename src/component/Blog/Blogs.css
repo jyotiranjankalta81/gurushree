@@ -1,14 +1,14 @@
 
 /* ----------------------------------------- */
 .blog-header {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: left;
     color: #273246;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .blogs-line {
@@ -18,20 +18,20 @@
 }
 
 .blog-p-content {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
     padding: 1rem;
     width: 60%;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     /* border: 2px solid black; */
   
 }
 
 .blog-p1-content {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 0em;
@@ -40,7 +40,7 @@
     width: 100%; 
     display: flex;
     justify-content: center;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
      /* border: 2px solid black; */
 }
 .blog-p1-content p{
@@ -84,12 +84,12 @@
 .blog-categorie {
     text-align: center;
     color: #273246;
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-size: 2rem;
     font-weight: 600;
     line-height: 36px;
     letter-spacing: 0em;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 @media only  screen and (max-width:821px)

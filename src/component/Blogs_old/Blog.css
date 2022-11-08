@@ -6,7 +6,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #273246;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .crousel_img {
@@ -32,7 +32,7 @@
     color: #fff;
     padding: 2rem;
     left: 0;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 
 }
 
@@ -50,7 +50,7 @@
     left: 2rem;
     top: 8rem;
     color: white;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .kNBmiK {
@@ -89,7 +89,7 @@
     letter-spacing: 0em;
     text-align: left;
     width: 60%;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     /* border: 2px solid black; */
 }
 

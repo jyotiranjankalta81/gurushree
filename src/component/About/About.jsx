@@ -6,11 +6,16 @@ import Carousel from 'react-grid-carousel';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 function About() {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 500);
   }, []);
 
 
@@ -108,7 +113,7 @@ function About() {
 
           <div className="about_info">
             <p className='' data-aos="fade-left">Apart from our interest in mining, over the years, the company has successfully diversified into other
-              business with equal success, which are Equipment Leasing (Gurushree Minerals Pvt. Ltd.), Real Estate
+              business with equal success, which are Equipment Leasing (GURUSHREE MINERALS PVT. LTD.), Real Estate
               (ELITE ASSOCIATES), and Ferro Alloy (GURUSHREE INDUSTRIES PVT LTD). The Gurushree Group operate
               the business in the following companies: </p>
           </div>
@@ -130,13 +135,13 @@ function About() {
             <p className='circle_para' data-aos="zoom-in">Gurushree Industries Pvt Ltd., Manufacture & supply of Ferro Vanadium, Ferro Moly and Calcined Dolomite</p>
           </Link>
 
-          <Link to='/buildcon' className="circle_card" data-aos="flip-left" style={{ textDecoration: "none", color: "black" }}>
+          {/* <Link to='/buildcon' className="circle_card" data-aos="flip-left" style={{ textDecoration: "none", color: "black" }}>
             <div className="circle circle_bg1">3</div>
             <p className='circle_para' data-aos="zoom-in">Gurushree Buildcon Pvt Ltd, Civil construction activities</p>
-          </Link>
+          </Link> */}
 
           <Link to='/associates' className="circle_card" data-aos="flip-left" style={{ textDecoration: "none", color: "black" }}>
-            <div className="circle circle_bg2">4</div>
+            <div className="circle circle_bg2">3</div>
             <p className='circle_para' data-aos="zoom-in">Elite Associates, Real Estate business</p>
           </Link>
 
@@ -146,8 +151,9 @@ function About() {
       {/* Our Vision Section */}
 
       {/* <section className='our-vision-bg'>
+        <h1>Gurushree Group</h1>
         <h1 className="our_vision_head" data-aos="fade-up">
-          Our Vision
+          Vision 2041
         </h1>
         <div className="fullimg">
           <img src="images/About/ourmission.png" alt="" />
@@ -181,6 +187,8 @@ function About() {
           </div>
         </div>
       </section> */}
+
+      
 
       <section className='team-section'>
         <div className="our_team_head" data-aos="fade-up">
@@ -270,6 +278,7 @@ function About() {
           <br />
         </div>
       </section>
+      <Footer/>
     </>
   );
 }

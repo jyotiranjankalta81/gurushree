@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Footer from '../../component/Footer/Footer';
 import Navbar from '../../component/Navbar/Navbar';
 import './Associates.css'
 
@@ -15,7 +16,7 @@ export default function Associates() {
         <Navbar />
         <div className="header_img_div">
           <img src="images/Component2/elitebg.png" className="header-header-bg_style" />
-          <div className="circle_about">Associates</div>
+          <div className="circle_about">Gurushree Associates Pvt.Ltd.</div>
         </div>
         <div class="text-block_style">
           <div className="header-title" data-aos="fade-right">
@@ -111,6 +112,7 @@ export default function Associates() {
                 </div>
 
             </div>
+            <Footer/>
         </>
     )
 }

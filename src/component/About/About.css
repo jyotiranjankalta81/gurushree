@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../public/images/Home/logo_watermark.png);
+    /* background-image: url(../../../public/images/Home/logo_watermark.png); */
     background-repeat: no-repeat;
 
     background-position: center;
@@ -40,14 +40,14 @@
 }
 
 .about_info h1 {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: left;
     color: #3F4A5A;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .about-line {
@@ -59,13 +59,13 @@
 }
 
 .about_info p {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0em;
     text-align: justify;
     margin-top: 1rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     /* border: 2px solid black; */
 }
 
@@ -74,10 +74,10 @@
 .circle_container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 0 5%;
     /* margin-top: -3rem; */
-    gap: 3rem;
+    /* gap: 3rem; */
     /* border: 2px solid black; */
 }
 
@@ -100,7 +100,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 1rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -111,7 +111,7 @@
     /* border: 2px solid black; */
     text-align: left;
     margin-top: 1rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 
 }
 
@@ -165,7 +165,7 @@
     line-height: 42px;
     letter-spacing: 0em;
     text-align: center;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .vision_card_container {
@@ -211,7 +211,7 @@
 .vision_card1 ul li {
     font-size: 1.1rem;
     font-weight: 500;
-    font-family: 'Inria', sans-serif;
+    /* font-family: 'Inria', sans-serif; */
     color: #FFFFFF;
 }
 
@@ -224,7 +224,7 @@
     width: 100%;
     margin-bottom: 3rem;
     text-align: center;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .vision_head span {
@@ -240,7 +240,7 @@
     /* border: 2px solid white; */
     /* text-align: justify; */
     /* margin-top: -1rem; */
-    font-family: 'Inria', sans-serif;
+    /* font-family: 'Inria', sans-serif; */
 
 }
 .vision_paras {
@@ -252,7 +252,7 @@
     /* border: 2px solid white; */
     /* text-align: justify; */
     margin-top: -2.3rem;
-    font-family: 'Inria', sans-serif;
+    /* font-family: 'Inria', sans-serif; */
 
 }
 
@@ -288,7 +288,7 @@
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .h1 {
@@ -338,7 +338,7 @@
 }
 
 .core_members .member1 p {
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -362,7 +362,7 @@
     text-align: justify;
     padding-right: 2%;
 
-    background-image: url(../../../public/images/Home/logo_watermark.png);
+    /* background-image: url(../../../public/images/Home/logo_watermark.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20% 70%;
@@ -411,13 +411,13 @@
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 0;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .team_info span {
     font-size: .9rem;
     font-weight: 500;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .team-text {
@@ -425,7 +425,7 @@
     font-size: 1rem;
     font-weight: 500;
     color: #000;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 
@@ -453,13 +453,13 @@
 }
 
 .about-mission-text {
-    font-family: 'Rasa';
+    /* font-family: 'Rasa'; */
     font-weight: 400;
     font-size: 12px;
 }
 
 .about-mission-h1 {
-    font-family: 'Rasa';
+    /* font-family: 'Rasa'; */
     color: aliceblue;
     margin-bottom: -160px;
     margin-right: 100px;
@@ -467,7 +467,7 @@
 }
 
 .mission-h1 {
-    font-family: 'Rasa';
+    /* font-family: 'Rasa'; */
     color: aliceblue;
     margin-right: 100px;
     text-align: center;
@@ -502,7 +502,7 @@
 .team-sec-h1 {
     margin-left: 170px;
     margin-top: 40px;
-    font-family: 'Segoe UI';
+    /* font-family: 'Segoe UI'; */
     font-size: 35px;
     font-weight: 600;
     position: relative;
@@ -647,7 +647,7 @@
     /* section-3 */
 
     .our-vision-bg {
-        background-image: url(../../../public/images/Header/header-bg2.png);
+        /* background-image: url(../../../public/images/Header/header-bg2.png); */
         height: 100%;
     }
 

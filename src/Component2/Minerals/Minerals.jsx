@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Footer from '../../component/Footer/Footer';
 import Navbar from '../../component/Navbar/Navbar';
 import './Minerals.css'
 
@@ -12,28 +13,29 @@ export default function Minerals() {
     return (
         <>
             <div>
-        <Navbar />
-        <div className="header_img_div">
-          <img src="images/Component2/mineralsbg.png" className="header-header-bg_style" />
-          <div className="circle_about">Gurushree Minerals Pvt. Ltd.</div>
-        </div>
-        <div class="text-block_style">
-          <div className="header-title" data-aos="fade-right">
-            <h1 className="header-title-h1_style"></h1>
-          </div>
-        </div>
-        <center>
-        </center>
-      </div>
+                <Navbar />
+                <div className="header_img_div">
+                    <img src="images/Component2/mineralsbg.png" className="header-header-bg_style" />
+                    <div className="circle_about">Gurushree Minerals Pvt. Ltd.</div>
+                </div>
+                <div class="text-block_style">
+                    <div className="header-title" data-aos="fade-right">
+                        <h1 className="header-title-h1_style"></h1>
+                    </div>
+                </div>
+                <center>
+                </center>
+            </div>
             <div className='minerals'>
                 <br />
                 <h2>M/s Gurushree Minerals Pvt. Ltd.</h2>
                 <div className="section1">
                     <img src="images/Component2/gatewala.jpeg" className='gatewala_img' alt="" />
-                    <p>Gurushree Minerals Pvt. Ltd. is one of the major dolomite suppliers in the region and we supply processed dolomite ores to all major integrated steel manufacturing units in the region. The dolomite we supply are of very high grade and low in silica. Our mines are located at Baradwar, District Janjgir Champa, Chattishgarh</p>
+                    <p>Gurushree Minerals Pvt. Ltd. is one of the major dolomite suppliers in the region and we supply processed dolomite ores to all major integrated steel manufacturing units in the region. The dolomite we supply are of very high grade and low in silica. Our mines are located at Baradwar, District Janjgir Champa, Chattishgarh.
+                        We provide Rake loading options for bulk supply of Dolomite. Our nearest rake point is Baradwar (BUA) and Baradwar Goods Shed Line NO.04- (PSBD), which is on the main line between Kolkata and Mumbai.
+                    </p>
                 </div>
 
-                <p> We provide Rake loading options for bulk supply of Dolomite. Our nearest rake point is Baradwar (BUA) and Baradwar Goods Shed Line NO.04- (PSBD), which is on the main line between Kolkata and Mumbai</p>
 
                 <div className="slider">
                     <div className="slide_track">
@@ -98,6 +100,7 @@ export default function Minerals() {
                 </div>
 
             </div>
+            <Footer />
         </>
     )
 }

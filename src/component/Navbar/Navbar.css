@@ -38,7 +38,7 @@
 .nav-link {
     color: #3F3F3F;
     font-weight: 400;
-    font-family: 'Segoe UI',sans-serif;
+    /* font-family: 'Segoe UI',sans-serif; */
     font-size: 1.2rem;
     background: #ECECEC;
     /* border: 2px solid black; */
@@ -59,7 +59,7 @@
 
 .nav-item {
     list-style: none;
-    font-family: "Segoe UI",sans-serif;
+    /* font-family: "Segoe UI",sans-serif; */
     font-weight: 400;
     /* border: 2px solid white; */
     margin-right: 3rem;

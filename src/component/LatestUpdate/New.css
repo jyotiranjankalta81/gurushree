@@ -1,12 +1,12 @@
 .new-header {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-size: 2.1rem;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: left;
     color: #273246;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     /* border: 2px solid black; */
 }
 .crousel_img
@@ -31,7 +31,7 @@ text-align: left;
 color: #fff;
 padding: 2rem;
 left: 0;
-font-family: 'Kanit', sans-serif;
+/* font-family: 'Kanit', sans-serif; */
 
 }
 .carousel_img_div{
@@ -48,7 +48,7 @@ width: 7rem;
 left: 2rem;
 top: 8rem;
 color: white;
-font-family: 'Kanit', sans-serif;
+/* font-family: 'Kanit', sans-serif; */
 }
 
 .kNBmiK {
@@ -75,14 +75,14 @@ font-family: 'Kanit', sans-serif;
     width: 80%;
 }
 .new-p-content {
-font-family: 'Volkhov';
+/* font-family: 'Volkhov'; */
 font-size: 1.3rem;
 font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: left;
 width: 60%;
-font-family: 'Kanit', sans-serif;
+/* font-family: 'Kanit', sans-serif; */
 /* border: 2px solid black; */
 }
 

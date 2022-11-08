@@ -2,6 +2,7 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import "./TermCondition.css";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 export default function TermCondition() {
   React.useEffect(() => {
     window.scrollTo(0,600);
@@ -86,6 +87,7 @@ export default function TermCondition() {
         </div>
       </div>
     </div>
+    <Footer/>
     </>
   );
 }

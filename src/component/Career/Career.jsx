@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axiosInstance from '../../helper/axiosInstance';
+import Footer from '../Footer/Footer';
 
 function Career() {
   const [isName, setisName] = useState(null);

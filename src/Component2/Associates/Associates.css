@@ -7,7 +7,7 @@
 }
 
 .associates p {
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -25,26 +25,42 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
 
 .section1 p {
     text-align: justify;
-    padding: 2%;
-    font-family: 'Kanit';
+    padding: 0% 2% 0% 2%;
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     align-items: center;
  
 
     color: #000000;
 }
+.enquiry_mail_industry{
+    width: 70%;
+    background: #eccfb2;
+    /* color: aliceblue; */
 
+    align-items: center;
+    border-radius: 7px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .imgsecion {
     display: flex;
     width: 100%;

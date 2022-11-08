@@ -3,11 +3,11 @@
 }
 
 .industries h2 {
-    padding-left: 5%;
+    padding-left: 3%;
 }
 
 .industries p {
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -38,7 +38,7 @@
 .section1 p {
     text-align: justify;
     padding: 2%;
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;

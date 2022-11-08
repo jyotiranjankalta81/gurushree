@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import { QrCodeOutlined } from "@mui/icons-material";
+import Footer from "../Footer/Footer";
 
 function Home() {
   const myRef = useRef(null);
@@ -20,34 +21,34 @@ function Home() {
 
   return (
     <>
-    
-      <Header/>
-        {/* Welocme section */}
-        <section className="welcome_section">
-          <div className="img_section">
-            <div data-aos="fade-right">
-              <img src="images/Career/Arrow.png" alt="" />
-              <img src="images/Career/Arrow1.png" alt="" />
-            </div>
+
+      <Header />
+      {/* Welocme section */}
+      <section className="welcome_section">
+        <div className="img_section">
+          <div data-aos="fade-right">
+            <img src="images/Career/Arrow.png" alt="" />
+            <img src="images/Career/Arrow1.png" alt="" />
           </div>
-          <div className="infosection" >
-            <h1 data-aos="fade-down">Welcome to Gurushree Group</h1>
-            <div data-aos="fade-down" className="title-line"></div>
-            <p data-aos="zoom-in">The company is located in the State of Chhattisgarh which is blessed with natures' abundance in every form and mineral rich state in India. We produce and provide high-grade dolomite that is regularly supplied to various Steel plants all over the country. <br /><br />
-              Our company is today's largest Dolomite mining company amongst Chhattisgarh companies.
-            </p>
-            <Link to='/aboutus'> <Button data-aos="zoom-out">Read More</Button></Link>
-            <div className="home-trans" data-aos="zoom-in-left">
-              <img src="images/Career/Arrow-trans1.png" alt="" className="" />
-              <img src="images/Career/Arrow-trans.png" alt="" className="" />
-            </div>
+        </div>
+        <div className="infosection" >
+          <h1 data-aos="fade-down">Welcome to Gurushree Group</h1>
+          <div data-aos="fade-down" className="title-line"></div>
+          <p data-aos="zoom-in">The company is located in the State of Chhattisgarh which is blessed with natures' abundance in every form and mineral rich state in India. We produce and provide high-grade dolomite that is regularly supplied to various Steel plants all over the country. <br /><br />
+            Our company is today's largest Dolomite mining company amongst Chhattisgarh companies.
+          </p>
+          <Link to='/aboutus'> <Button data-aos="zoom-out">Read More</Button></Link>
+          <div className="home-trans" data-aos="zoom-in-left">
+            <img src="images/Career/Arrow-trans1.png" alt="" className="" />
+            <img src="images/Career/Arrow-trans.png" alt="" className="" />
           </div>
-        </section>
-        {/* Welocme section */}
+        </div>
+      </section>
+      {/* Welocme section */}
 
 
-        {/* Product section */}
-        {/* <section className="product-bg">
+      {/* Product section */}
+      <section className="product-bg">
           <div class="product_container">
             <div class="left_img" data-aos="fade-right">
               <img src="images/Header/logo.png" alt="" />
@@ -72,7 +73,7 @@ function Home() {
                   alt=""
                   className="product-icon"
                 />
-                <h6 class="card-title">Manufacturing</h6>
+                <h6 class="card-title">Manufacturer of Noble Ferro Alloys</h6>
                 <p class="product-card-text">
                   Gurushree Industries Pvt. Ltd. is an upcoming concern established in the year 2016 and has started
                   production with main objective of providing finest grade of Calcined Dolomite, Ferro Vanadium, Ferro
@@ -113,12 +114,14 @@ function Home() {
               </div>
             </div>
           </div>
-        </section> */}
-        {/* Product section */}
-        <br /><br />
-        {/* card section */}
-        <br />
-        {/* <div className="our_card" data-aos="zoom-in-down">
+        </section>
+        
+      {/* Product section */}
+      <br />
+      {/* <br /> */}
+      {/* card section */}
+      {/* <br /> */}
+      {/* <div className="our_card" data-aos="zoom-in-down">
           <div className="our_card1">
             <h2 className="our_head">Our Companies</h2>
             <Link to='/minerals' className="our_para1">
@@ -249,69 +252,12 @@ function Home() {
           </div>
 
         </div> */}
-        <br />
+      {/* <br /> */}
 
 
-        <section className="our_vision_cont">
-          <div className="ourvisionline">
-            <h2 >Our Vision</h2>
-            <div className="vision_underline"></div>
-          </div>
-          <br />
-          <div className="our_vision">
-            <div className="img_section">
-              <div data-aos="fade-right">
-                <img src="images/Career/Arrow.png" alt="" />
-                <img src="images/Career/Arrow1.png" alt="" />
-              </div>
-            </div>
 
-            <div className="cards_ourvision">
-              <div className="our_vision_card1" data-aos="fade-left">
-                <div className="our_vision_img1"></div>
-                <h3 className="vision_inside_heading" >Core Purpose</h3>
-                <p className="vision_inside_para"> 
-                <FormatQuoteIcon sx={{transform:"rotate(180deg)",mt:-1.2}}/>
-                 To help leading Enterprises become more competent, <br /> Productive  &amp; Satisfied.
-                 <FormatQuoteIcon sx={{mt:-1.2}}/>
-                  </p>
-              </div>
 
-              <div className="our_vision_card2" data-aos="fade-down-left">
-                <div className="our_vision_img2"></div>
-                <h3 className="core_value_heading">Core Values</h3>
-                <p className="core_value_para">
-                  <ul className="core_value_ul">
-                    <li>We Work with Passion</li>
-                    <li>We believe in Excellence</li>
-                    <li>We put Customer First</li>
-                  </ul>
-                </p>
-              </div>
-
-              <div className="our_vision_card3" data-aos="fade-right">
-                <div className="our_vision_img3"></div>
-                <h3 className="vision_inside_heading">BHAG <br /> <span className="vision-goal">(Mount Everest Goal)</span> </h3>
-                <p className="vision_inside_para">
-                <FormatQuoteIcon sx={{transform:"rotate(180deg)",mt:-1.2}}/>
-                  Gurushree Group to achieve Annual Turnover of Rs. 10,000 Cr by 15’th August 2041.
-                  <FormatQuoteIcon sx={{mt:-1.2}}/>
-                  </p>
-              </div>
-
-            </div>
-
-            <div className="img_section_new">
-              <div data-aos="fade-left">
-                <img src="images/Home/arrowrhs1.png" alt="" />
-                <img src="images/Home/arrowrhs2.png" alt="" />
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        {/* <section className="qoutes_section-4">
+      {/* <section className="qoutes_section-4">
 
           <div className="qoutes-heading" data-aos="fade-down">
             <span> WHAT OUR CLIENTS SAY</span>
@@ -367,6 +313,180 @@ function Home() {
           </div>
 
         </section> */}
+
+      <h1 style={{textAlign:'center'}}>Our Clients</h1>
+      <div className="vision_underline"></div>
+      <div className="slider">
+        <div className="slide_track">
+          <div className="slide">
+            <a target="_blank" href="https://www.sail.co.in/en/home" className="our_para3">
+              <p><img src='images/Home/sail.jpeg' alt="" className='clients_img2' /></p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.aionjsw.in/" className="our_para3">
+              <p><img src='images/Home/jsw1.jpeg' alt="" className='clients_img1' /></p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.vizagsteel.com/" className="our_para3">
+              <p><img src='images/Home/vizag_logo1.jpeg' alt="" className='clients_img' /></p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.tatasteel.com/" className="our_para3">
+              <p><img src='images/Home/tata.png' alt="" />
+              <ul>
+                <li>Tata Steel Ltd. Dhenkanal, Odisha</li>
+                <li>Tata Steel Ltd. (Ferro Alloy Division), Joda, Odisha</li>
+                <li>Tata Steel Long Product Ltd. Adityapur, Jharkhand & Joda, Odisha</li>
+                <li>Tata Steel Long Product Ltd. Joda, Odisha</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+
+
+
+          <div className="slide">
+            <a target="_blank" href="https://www.jswsteel.in/" className="our_para3">
+              <p><img src='images/Home/jsw.jpeg' alt="" className='clients_img1' />
+              <ul>
+                <li>JSW Bhushan Power and Steel Limited, Sambalpur, Odisha</li>
+                <li>JSW Ispat Special Product Ltd. Raigarh, Chhattisgarh.</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.jindalsteelpower.com/" className="our_para3">
+              <p><img src='images/Home/jindal.png' alt="" />
+              <ul>
+                <li>Jindal Steel &amp; Power Ltd, Raigarh</li>
+                <li>Jindal Steel &amp; Power Ltd, Angul</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.rashmigroup.com/" className="our_para3">
+              <p><img src='images/Home/rashmi_group.jpeg' alt="" className='clients_img2' />
+              <ul>
+                <li>Rashmi Metaliks Ltd.</li>
+                <li>Rashmi Cement Ltd.</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.sail.co.in/en/home" className="our_para3">
+              {/* <img src='images/Home/pause2.png' className="our_img" alt="" /> */}
+              <p><img src='images/Home/sail.jpeg' alt="" className='clients_img2' /></p>
+            </a>
+          </div>
+
+
+          <div className="slide">
+            <a target="_blank" href="https://www.aionjsw.in/" className="our_para3">
+              {/* <img src='images/Home/pause2.png' className="our_img" alt="" /> */}
+              <p><img src='images/Home/jsw1.jpeg' alt="" className='clients_img1' /></p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.vizagsteel.com/" className="our_para3">
+              <p><img src='images/Home/vizag_logo1.jpeg' alt="" className='clients_img' /></p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.tatasteel.com/" className="our_para3">
+              <p><img src='images/Home/tata.png' alt="" />
+              <ul>
+                <li>Tata Steel Ltd. Dhenkanal, Odisha</li>
+                <li>Tata Steel Ltd. (Ferro Alloy Division), Joda, Odisha</li>
+                <li>Tata Steel Long Product Ltd. Adityapur, Jharkhand & Joda, Odisha</li>
+                <li>Tata Steel Long Product Ltd. Joda, Odisha</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.jswsteel.in/" className="our_para3">
+              <p><img src='images/Home/jsw.jpeg' alt="" className='clients_img1' />
+              <ul>
+                <li>JSW Bhushan Power and Steel Limited, Sambalpur, Odisha</li>
+                <li>JSW Ispat Special Product Ltd. Raigarh, Chhattisgarh.</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+
+          <div className="slide">
+            <a target="_blank" href="https://www.jindalsteelpower.com/" className="our_para3">
+              <p><img src='images/Home/jindal.png' alt="" />
+              <ul>
+                <li>Jindal Steel &amp; Power Ltd, Raigarh</li>
+                <li>Jindal Steel &amp; Power Ltd, Angul</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.rashmigroup.com/" className="our_para3">
+              <p><img src='images/Home/rashmi_group.jpeg' alt="" className='clients_img2' />
+              <ul>
+                <li>Rashmi Metaliks Ltd.</li>
+                <li>Rashmi Cement Ltd.</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.sail.co.in/en/home" className="our_para3">
+              <p><img src='images/Home/sail.jpeg' alt="" className='clients_img2' /></p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.aionjsw.in/" className="our_para3">
+              <p><img src='images/Home/jsw1.jpeg' alt="" className='clients_img1' /></p>
+            </a>
+          </div>
+
+
+
+          <div className="slide">
+            <a target="_blank" href="https://www.vizagsteel.com/" className="our_para3">
+              <p><img src='images/Home/vizag_logo1.jpeg' alt="" className='clients_img' /></p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.tatasteel.com/" className="our_para3">
+              <p><img src='images/Home/tata.png' alt="" />
+              <ul>
+                <li>Tata Steel Ltd. Dhenkanal, Odisha</li>
+                <li>Tata Steel Ltd. (Ferro Alloy Division), Joda, Odisha</li>
+                <li>Tata Steel Long Product Ltd. Adityapur, Jharkhand & Joda, Odisha</li>
+                <li>Tata Steel Long Product Ltd. Joda, Odisha</li>
+              </ul>
+              </p>
+            </a>
+          </div>
+          <div className="slide">
+            <a target="_blank" href="https://www.jswsteel.in/" className="our_para3">
+              <p><img src='images/Home/jsw.jpeg' alt="" className='clients_img1' />
+              <ul>
+                <li>
+                JSW Bhushan Power and Steel Limited, Sambalpur, Odisha
+                </li>
+                <li>
+                JSW Ispat Special Product Ltd. Raigarh, Chhattisgarh.
+                </li>
+              </ul>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <Footer/>
 
     </>
   );

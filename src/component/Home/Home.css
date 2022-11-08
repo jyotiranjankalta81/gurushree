@@ -18,7 +18,7 @@
     padding: 1rem 0;
     justify-content: space-between;
 
-    background-image: url(../../../public/images/Home/logo_watermark.png);
+    /* background-image: url(../../../public/images/Home/logo_watermark.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20% 70%;
@@ -38,7 +38,7 @@
     font-size: 2.4rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     color: #3F4A5A;
 
 
@@ -51,7 +51,7 @@
     font-weight: 500;
     line-height: 28px;
     text-align: justify;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .infosection button {
@@ -61,7 +61,7 @@
     text-transform: capitalize;
     font-size: 1rem;
     margin-top: 1rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 
 
 }
@@ -106,13 +106,14 @@
 .product-bg {
     background-image: url(../../../public/images/Home/Product-bg.png);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 150vh;
     background-position: center;
     width: 100%;
     /* border: 2px solid black; */
     background-size: 100% 100%;
     display: flex;
     align-items: center;
+    /* margin-bottom: 5rem; */
 }
 
 .product_container {
@@ -145,8 +146,8 @@
     font-size: 2.3rem;
     font-weight: 600;
     line-height: 49px;
-    text-align: left;
-    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    /* font-family: 'Kanit', sans-serif; */
 
 }
 
@@ -186,21 +187,21 @@
 .card-title {
     font-size: 1.2rem;
     margin-top: .5rem;
-    font-family: Rasa;
+    /* font-family: Rasa; */
     font-weight: 500;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 
 
 .product-card-text {
-    font-family: 'Rasa';
+    /* font-family: 'Rasa'; */
     font-weight: 400;
     font-size: .8rem;
     text-align: justify;
     /* border: 2px solid black; */
     margin-bottom: 0;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .product-icon {
@@ -237,7 +238,7 @@
     margin: 2rem 0;
     font-size: 2rem;
     font-weight: 600;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .our_head2 {
@@ -247,7 +248,7 @@
     margin: 2rem 0;
     font-size: 2rem;
     font-weight: 600;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .our_para1 {
@@ -262,22 +263,29 @@
 
     font-size: 1rem;
     font-weight: 500;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .our_para3 {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    /* gap: 0.7rem; */
     width: 90%;
+    height:100%;
     align-items: center;
     color: #273246;
-    background: white;
+    background: #AEC2DC;
+    /* background: white; */
+    border-radius: 17px;
     margin-bottom: 1rem;
     text-decoration: none;
     margin-left: 1rem;
 
     font-size: 1rem;
     font-weight: 500;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .our_para1 p {
@@ -291,7 +299,8 @@
     margin: 0%;
     width: 100%;
 
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
+    gap: 0.5rem;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -302,6 +311,12 @@
 
     color: #3F4A5A;
 }
+.our_para3 p>ul>li,
+.our_para1 p>ul>li
+{
+    color: #000000;
+    font-size: 0.5rem;
+}
 
 .our_para3 p {
     /* background: #AEC2DC; */
@@ -310,6 +325,7 @@
     box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.2);
     border-radius: 6px;
     padding: 1% 1%;
+    gap: 0.5rem;
     margin: 0%;
     width: 100%;
     display: flex;
@@ -330,7 +346,7 @@
 
     font-size: 1rem;
     font-weight: 500;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 
     background: #E7F0F7;
 
@@ -347,7 +363,7 @@
 
     font-size: 1rem;
     font-weight: 500;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 
     background: #E7F0F7;
 
@@ -362,7 +378,7 @@
     margin: 0%;
     text-align: center;
 
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -381,7 +397,7 @@
     padding: 2% 1%;
     width: 100%;
     text-align: center;
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 600;
     font-size: 0.5rem;
@@ -403,7 +419,7 @@
     align-items: center;
     text-align: center;
 
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -446,8 +462,8 @@
 }
 
 .clients_img {
-    width: 1.5rem;
-    height: 2rem;
+    width: 60%;
+    height: 60%;
     border-radius: 4px;
 }
 
@@ -529,6 +545,7 @@
 .our_vision_cont {
     display: flex;
     flex-direction: column;
+    margin-top: 10rem;
 
 }
 
@@ -542,6 +559,22 @@
     width: 13%;
     border: 3px solid #151319;
     margin: auto;
+}
+.ourvisionline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo_in_vision{
+    width: 10%;
+    height: 100%;
+    padding-top: 1rem;
+    /* border: 2px solid red; */
+}
+.gurushree_img{
+    width: 100%;
+    height: 100%;
 }
 
 .our_vision .cards_ourvision {
@@ -589,9 +622,9 @@
     width: 20rem;
     height: 29rem;
     /* padding: 0% 2%; */
-    gap: 1.5rem;
-    justify-content: center;
-    padding: 3rem 0rem 3rem 0rem;
+    /* gap: 1.5rem; */
+    justify-content: space-between;
+    padding: 4rem 0rem 3rem 0rem;
 
     background-image: url(../../../public/images/Home/visionone.png);
     background-repeat: no-repeat;
@@ -602,14 +635,14 @@
 .our_vision .cards_ourvision .our_vision_card2 {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     /* justify-content: center; */
     align-items: center;
     width: 20rem;
     height: 29rem;
     /* padding: 0% 2%; */
-    /* justify-content: center; */
-    padding: 3rem 0rem 3rem 0rem;
+    justify-content: space-between;
+    padding: 4rem 0rem 3rem 0rem;
 
     background-image: url(../../../public/images/Home/visiontwo.png);
     background-repeat: no-repeat;
@@ -621,11 +654,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 21rem;
+    width: 20rem;
     height: 29rem;
     /* padding: 0% 2%; */
-    /* justify-content: center; */
-    padding: 3rem 0rem 3rem 0rem;
+    justify-content: space-between;
+    padding: 4rem 0rem 3rem 0rem;
 
     background-image: url(../../../public/images/Home/visionthree.png);
     background-repeat: no-repeat;
@@ -671,10 +704,10 @@
 
 
 .core_value_heading {
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     font-style: normal;
     font-weight: 600;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     font-size: 30px;
     line-height: 45px;
     text-align: center;
@@ -687,7 +720,7 @@
 .vision_inside_heading {
 
 
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -706,7 +739,7 @@
 }
 
 .core_value_para {
-    font-family: 'Inria', sans-serif;
+    /* font-family: 'Inria', sans-serif; */
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -718,7 +751,7 @@
 }
 
 .vision-goal {
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -732,7 +765,7 @@
 
 .vision_inside_para {
     /* font-family: 'Kanit', sans-serif; */
-    font-family: "Inria",sans-serif;
+    /* font-family: "Inria",sans-serif; */
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -746,10 +779,18 @@
 
 .ourvisionline h2 {
     text-align: center;
-    font-family: 'Kanit';
+    /* font-family: 'Kanit'; */
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
+    color: #000000;
+}
+.ourvisionline h1 {
+    text-align: center;
+    /* font-family: 'Kanit'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
     color: #000000;
 }
 
@@ -776,7 +817,7 @@
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 
 }
 
@@ -872,7 +913,7 @@
     font-weight: 400;
     margin-left: 2rem;
     font-size: 1.2rem;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 .avatar_img {
@@ -1084,7 +1125,7 @@
         
      } */
     .product-bg {
-        background-image: url(../../../public/images/Header/header-bg2.png);
+        /* background-image: url(../../../public/images/Header/header-bg2.png); */
         height: 100%;
         padding: 1rem;
     }

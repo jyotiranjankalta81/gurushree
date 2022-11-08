@@ -9,9 +9,11 @@ import "aos/dist/aos.css";
 
 
 const images = [
-  "images/Home/crousel4.jpg",
-  "images/Component2/Image 3.jpg",
-  "images/Component2/Image 10.jpg",
+  "images/Header/crouselbg1.png",
+  "images/Header/crouselbg2.png",
+  "images/Header/crouselbg3.png",
+  "images/Header/crouselbg4.png",
+  "images/Header/crouselbg5.png",
 ];
 
 const name = ["Calcined Dolomite", "Dolomite Chips", "Mines"]
@@ -47,7 +49,7 @@ function Header() {
         <div className="header_img_div_style">
           <img src={images[currentIndex]} className="header-header-bg" />
         </div>
-        <div class="text-block">
+        {/* <div class="text-block">
           <div className="header-title" data-aos="fade-right">
             <h1 className="header-title-h1">Gurushree Minerals Pvt Ltd. </h1>
             <h3 className="header-title-detail" >
@@ -55,7 +57,7 @@ function Header() {
               <br /> state of the art machines
             </h3>
           </div>
-        </div>
+        </div> */}
         <center>
         </center>
       </div>
